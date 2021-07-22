@@ -1,0 +1,231 @@
+/* Variables */
+
+$primary-color: #9900cc;
+$secondary-color: #6600cc;
+
+/* Global   */
+
+body {
+  border: 10px solid #ccc;
+  min-height: 100vh;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-size: 15px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  line-height: 1.4;
+  word-spacing: 1px;
+}
+
+main {
+  padding: 0;
+  width: 95vw;
+  margin-left: 2vw;
+}
+
+@media screen and (min-width: 1000px) {
+  main {
+    padding: 40px;
+    width: 80vw;
+    margin-left: 7vw;
+  }
+}
+
+h1,
+h2,
+h3 {
+  font-family: "PT Serif", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Helvetica Neue", Arial, sans-serif;
+  font-weight: normal;
+}
+
+h3, h4{
+  margin-top: 20px !important;
+  color: $primary-color;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  margin: 20px 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+a,
+a:active,
+a:visited {
+  color: $primary-color;
+  text-decoration: none;
+  transition: 0.3s all ease;
+}
+
+button {
+  border: 1px solid #ccc;
+  background: white;
+  padding: 10px 14px;
+  cursor: pointer;
+  color: black;
+  font-weight: 700;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+  transition: 0.3s all ease;
+  &:hover {
+    background: black;
+    border: 1px solid black;
+    color: white;
+  }
+}
+
+button.download {
+  background: $primary-color;
+  color: white;
+  font-size: 16px;
+  border: none;
+  &:hover {
+    background: #c14103;
+  }
+}
+
+hr {
+  border-top: 1px solid #eee;
+  margin: 30px 0;
+}
+
+label {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+input {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  padding: 5px 10px;
+}
+
+.center {
+  text-align: center;
+}
+
+
+.item button {
+  width: 90%;
+  margin-top: 20px;
+}
+
+/* Store Grid */
+
+.storegrid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 3fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 0px;
+}
+
+.img-contain {
+  max-height: 290px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  img {
+    width: 100%;
+  }
+}
+
+.view-btn-container{
+  margin-top: 15px;
+}
+
+.content {
+  /*no grid support*/
+  float: right;
+  width: 79.7872%;
+  /* grid */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  padding: 0 !important;
+}
+
+.max {
+  float: right;
+}
+
+.logo-info {
+  padding: 0 20px;
+
+  h1{
+    margin:  0;
+  }
+}
+
+.similar-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 600px) {
+  aside {
+    width: 100% !important;
+    margin-bottom: 10px !important;
+  }
+
+  .content {
+    width: 100% !important;
+    grid-template-columns: 1fr !important;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .content {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .storegrid {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+  }
+}
+
+/* items animation  */
+
+.items-leave-active {
+  transition: opacity 0.2s ease-out, scale 0.2s ease-out;
+}
+
+.items-move {
+  transition: opacity 0.2s ease-out, scale 0.2s ease-out;
+}
+
+.items-enter-active {
+  transition: opacity 0.2s ease-out, scale 0.2s ease-out;
+}
+
+.items-enter,
+.items-leave-to {
+  opacity: 0;
+  transform: scale(0.9);
+  transform-origin: 50% 50%;
+}
