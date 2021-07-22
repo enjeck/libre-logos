@@ -1,4 +1,4 @@
-# Libre
+# Libre Logos
 
 This project contains a collection of free logos built with Inkscape.
 The logos are intended for small open source projects and startups needing a temporary logo.
@@ -17,10 +17,16 @@ In the future, this project will be rewritten and architected to take advantage 
 ## Building a local version
 
 1. Clone the repository
-    `git clone https://github.com/PROTechThor/libre-logos.git`
+
+    ``` 
+    git clone https://github.com/PROTechThor/libre-logos.git
+    ```
 2. Enter the project folder and install node modules
-    `cd libre-logos`
-    `npm install`
+
+    ``` 
+    cd libre-logos
+    npm install 
+    ```
 3. Run
     - `npm start` to develop
     - `npm run build` to build
