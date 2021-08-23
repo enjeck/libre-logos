@@ -4,11 +4,11 @@ import SEO from "../components/seo"
 import StoreGrid from "../components/storegrid"
 import { FilterLogos } from "../helpers/logo-filter"
 
-const Abstract = () => (
+const Claimed = () => (
   <Layout>
-    <SEO title="Abstract Logos" />
-    <StoreGrid logos={FilterLogos("Abstract")} />
+    <SEO title="Claimed Logos" />
+    <StoreGrid logos={FilterLogos("Claimed")} />
   </Layout>
 )
 
-export default Abstract
+export default Claimed

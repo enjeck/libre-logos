@@ -2,25 +2,19 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Textlockup from "../components/textlockup"
-import SalesBoxes from "../components/salesboxes"
+import Features from "../components/features"
 import FeaturedLogos from "../components/featuredlogos"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Textlockup
-      newText="FREE"
-      saleText="Free to use logos"
-      collectionText="No copyright"
-      detailsText="Use without attribution"
+      newText="LIBRE"
+      saleText="Free, open source"
+      collectionText="exclusive logos"
+      detailsText="for Open source projects and NGOs"
     />
-    <SalesBoxes />
-    <Textlockup
-      newText="OPEN"
-      saleText="Open source"
-      collectionText="Editable"
-      detailsText="Can be modified"
-    />
+    <Features />
     <FeaturedLogos />
   </Layout>
 )
