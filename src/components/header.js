@@ -17,13 +17,10 @@ const Header = ({ siteTitle }) => {
             <Link to="/all">All Logos</Link>
           </li>
           <li>
-            <Link to="/tech">Tech</Link>
+            <Link to="/available">Available Logos</Link>
           </li>
           <li>
-            <Link to="/gaming">Gaming</Link>
-          </li>
-          <li>
-            <Link to="/abstract">Abstract</Link>
+            <Link to="/claimed">Claimed Logos</Link>
           </li>
         </ul>
       </Nav>

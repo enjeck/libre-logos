@@ -2,15 +2,29 @@ import React from "react"
 import styled from "styled-components"
 
 const Links = styled.section`
-  width: 80%;
-  margin-left: 10%;
+  width: 100%;
   padding: 40px 0;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 1fr;
+  background: #eee;
 
   ul {
     list-style: none;
     padding-left: 0;
+    margin: auto;
+    font-family: 'sans serif';
+  }
+
+  li{
+    padding: 5px;
+  }
+
+  a:hover{
+    text-decoration: underline;
+  }
+
+  h4{
+    color: #333;
   }
 
   input {
@@ -28,17 +42,13 @@ const FooterLinks = () => {
   return (
     <Links>
       <ul>
-        <li>About</li>
-        <li>Contribute</li>
-        <li>Contact</li>
-      </ul>
-      <ul>
-        <li>Twitter</li>
-        <li>GitHub</li>
+        <li> <a href="https://github.com/PROTechThor/libre-logos#readme"> About</a></li>
+        <li><a href="https://github.com/PROTechThor/libre-logos#contribute">Contribute</a></li>
+        <li><a href="https://github.com/PROTechThor/libre-logos">GitHub</a></li>
       </ul>
       <ul>
         <h4>Be notified when new logos are added:</h4>
-      <p>Star and watch the repo on GitHub</p>
+      <p>Star and watch the repo on <a href="https://github.com/PROTechThor/libre-logos">GitHub</a></p>
       </ul>
     </Links>
   )

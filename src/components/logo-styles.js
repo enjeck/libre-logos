@@ -12,10 +12,3 @@ export const ItemContain = styled.section`
     width: 95% !important;
   }
 `
-
-export const Similar = styled.div`
-  @media screen and (max-width: 650px) {
-    width: 90%;
-    margin-left: 4%;
-  }
-`

@@ -72,7 +72,7 @@ export const Featured = styled.section`
   @media screen and (min-width: 700px) {
     .featureditems {
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
       grid-template-rows: 1fr;
       grid-column-gap: 20px;
       grid-row-gap: 0px;

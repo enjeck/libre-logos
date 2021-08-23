@@ -86,14 +86,29 @@ button {
   }
 }
 
-button.download {
+a.claim {
   background: $primary-color;
   color: white;
   font-size: 16px;
   border: none;
+  padding: 10px;
+  font-weight: bold;
   &:hover {
     background: #c14103;
   }
+}
+
+a.claimed{
+  background: #aaa;
+  cursor:not-allowed;
+  &:hover {
+    background: #aaa;
+  }
+}
+
+.logo-details p{
+  margin: 0;
+  font-size: 14px;
 }
 
 hr {
@@ -127,6 +142,20 @@ input {
   margin-top: 20px;
 }
 
+.logo-img{
+  position:relative;
+}
+
+.tag{
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  background-color: #c14103;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+}
 /* Store Grid */
 
 .storegrid {
@@ -158,7 +187,7 @@ input {
   width: 79.7872%;
   /* grid */
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   grid-gap: 10px;
   padding: 0 !important;
 }
@@ -169,6 +198,7 @@ input {
 
 .logo-info {
   padding: 0 20px;
+  margin-top: 30px;
 
   h1{
     margin:  0;

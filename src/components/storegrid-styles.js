@@ -12,5 +12,5 @@ export const Item = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 20px 0;
+  margin: 20px 15px;
 `

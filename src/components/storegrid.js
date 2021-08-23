@@ -15,12 +15,11 @@ const StoreGrid = ({ logos }) => {
             <Item>
               <div className="img-contain">
                 <a href={`logo/${item.id}`}>
-                  <img src={item.img} alt=""></img>
+                  <img src={item.img} alt={`${item.name}`}></img>
                 </a>
               </div>
+              <a href={`logo/${item.id}`}>
               <h3>{item.name}</h3>
-              <a href={`logo/${item.id}`} className="view-btn-container">
-                <button className="view-item">View Item ></button>
               </a>
             </Item>
           </CSSTransition>
