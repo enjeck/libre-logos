@@ -142,6 +142,6 @@ const ConditionalFastRefreshOverlay = ({
   return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, children);
 };
 
-var _default = () => /*#__PURE__*/_react.default.createElement(ConditionalFastRefreshOverlay, null, /*#__PURE__*/_react.default.createElement(_queryResultStore.StaticQueryStore, null, WrappedRoot), process.env.GATSBY_EXPERIMENTAL_QUERY_ON_DEMAND && process.env.GATSBY_QUERY_ON_DEMAND_LOADING_INDICATOR === `true` && /*#__PURE__*/_react.default.createElement(_loadingIndicator.LoadingIndicatorEventHandler, null));
+var _default = () => /*#__PURE__*/_react.default.createElement(ConditionalFastRefreshOverlay, null, /*#__PURE__*/_react.default.createElement(_queryResultStore.StaticQueryStore, null, WrappedRoot));
 
 exports.default = _default;

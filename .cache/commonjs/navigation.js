@@ -32,13 +32,23 @@ var _history = require("@reach/router/lib/history");
 var _gatsbyLink = require("gatsby-link");
 
 // Convert to a map for faster lookup in maybeRedirect()
-const redirectMap = _redirects.default.reduce((map, redirect) => {
-  map[redirect.fromPath] = redirect;
-  return map;
-}, {});
+const redirectMap = new Map();
+const redirectIgnoreCaseMap = new Map();
+
+_redirects.default.forEach(redirect => {
+  if (redirect.ignoreCase) {
+    redirectIgnoreCaseMap.set(redirect.fromPath, redirect);
+  } else {
+    redirectMap.set(redirect.fromPath, redirect);
+  }
+});
 
 function maybeRedirect(pathname) {
-  const redirect = redirectMap[pathname];
+  let redirect = redirectMap.get(pathname);
+
+  if (!redirect) {
+    redirect = redirectIgnoreCaseMap.get(pathname.toLowerCase());
+  }
 
   if (redirect != null) {
     if (process.env.NODE_ENV !== `production`) {
@@ -93,8 +103,13 @@ const navigate = (to, options = {}) => {
   let {
     pathname
   } = (0, _gatsbyLink.parsePath)(to);
-  const redirect = redirectMap[pathname]; // If we're redirecting, just replace the passed in pathname
+  let redirect = redirectMap.get(pathname);
+
+  if (!redirect) {
+    redirect = redirectIgnoreCaseMap.get(pathname.toLowerCase());
+  } // If we're redirecting, just replace the passed in pathname
   // to the one we want to redirect to.
+
 
   if (redirect) {
     to = redirect.toPath;

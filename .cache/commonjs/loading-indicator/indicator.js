@@ -46,8 +46,9 @@ function Indicator({
   }
 
   return /*#__PURE__*/_react.default.createElement(_portal.default, null, /*#__PURE__*/_react.default.createElement(_style.default, null), /*#__PURE__*/_react.default.createElement("div", {
-    "data-gatsby-loading-indicator": "root",
-    "data-gatsby-loading-indicator-visible": visible,
+    "data-gatsby-loading-indicator": "root" // preact doesn't render data attributes with a literal bool false value to dom
+    ,
+    "data-gatsby-loading-indicator-visible": visible.toString(),
     "aria-live": "assertive"
   }, /*#__PURE__*/_react.default.createElement("div", {
     "data-gatsby-loading-indicator": "spinner",

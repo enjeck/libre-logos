@@ -14,27 +14,28 @@
             "displayName": true,
             "fileName": true,
             "minify": true,
+            "namespace": "",
             "transpileTemplateLiterals": true,
             "pure": false,
             "ssr": false
           }
         },
         {
-          "name": "/home/cleo/ecomm/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
+          "name": "/home/cleo/libre-logos/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
           "options": {}
         },
         {
-          "name": "/home/cleo/ecomm/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
+          "name": "/home/cleo/libre-logos/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
           "options": {}
         },
         {
-          "name": "/home/cleo/ecomm/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
+          "name": "/home/cleo/libre-logos/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
           "options": {}
         }
       ],
       "presets": [
         {
-          "name": "/home/cleo/ecomm/node_modules/@babel/preset-typescript/lib/index.js",
+          "name": "/home/cleo/libre-logos/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {
             "plugins": [],
             "allExtensions": false,
@@ -55,15 +56,15 @@
           "options": {}
         },
         {
-          "name": "/home/cleo/ecomm/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
+          "name": "/home/cleo/libre-logos/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
           "options": {}
         },
         {
-          "name": "/home/cleo/ecomm/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
+          "name": "/home/cleo/libre-logos/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
           "options": {}
         },
         {
-          "name": "/home/cleo/ecomm/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
+          "name": "/home/cleo/libre-logos/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
           "options": {}
         },
         {
@@ -74,6 +75,7 @@
             "displayName": true,
             "fileName": true,
             "minify": true,
+            "namespace": "",
             "transpileTemplateLiterals": true,
             "pure": false,
             "ssr": false
@@ -82,7 +84,7 @@
       ],
       "presets": [
         {
-          "name": "/home/cleo/ecomm/node_modules/@babel/preset-typescript/lib/index.js",
+          "name": "/home/cleo/libre-logos/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {
             "plugins": [],
             "allExtensions": false,
@@ -103,15 +105,15 @@
           "options": {}
         },
         {
-          "name": "/home/cleo/ecomm/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
+          "name": "/home/cleo/libre-logos/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
           "options": {}
         },
         {
-          "name": "/home/cleo/ecomm/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
+          "name": "/home/cleo/libre-logos/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
           "options": {}
         },
         {
-          "name": "/home/cleo/ecomm/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
+          "name": "/home/cleo/libre-logos/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
           "options": {}
         },
         {
@@ -122,6 +124,7 @@
             "displayName": true,
             "fileName": true,
             "minify": true,
+            "namespace": "",
             "transpileTemplateLiterals": true,
             "pure": false,
             "ssr": true
@@ -130,7 +133,7 @@
       ],
       "presets": [
         {
-          "name": "/home/cleo/ecomm/node_modules/@babel/preset-typescript/lib/index.js",
+          "name": "/home/cleo/libre-logos/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {
             "plugins": [],
             "allExtensions": false,
@@ -151,15 +154,15 @@
           "options": {}
         },
         {
-          "name": "/home/cleo/ecomm/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
+          "name": "/home/cleo/libre-logos/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
           "options": {}
         },
         {
-          "name": "/home/cleo/ecomm/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
+          "name": "/home/cleo/libre-logos/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
           "options": {}
         },
         {
-          "name": "/home/cleo/ecomm/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
+          "name": "/home/cleo/libre-logos/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
           "options": {}
         },
         {
@@ -170,6 +173,7 @@
             "displayName": true,
             "fileName": true,
             "minify": true,
+            "namespace": "",
             "transpileTemplateLiterals": true,
             "pure": false,
             "ssr": true
@@ -178,7 +182,7 @@
       ],
       "presets": [
         {
-          "name": "/home/cleo/ecomm/node_modules/@babel/preset-typescript/lib/index.js",
+          "name": "/home/cleo/libre-logos/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {
             "plugins": [],
             "allExtensions": false,
