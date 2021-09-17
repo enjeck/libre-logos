@@ -1,18 +1,18 @@
 import React, { useEffect, useState } from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { Store } from "../data/store"
+import { Logos } from "../data/logos"
 import {
   ItemContain,
 } from "../components/logo-styles"
 import FeaturedLogos from "../components/featuredlogos"
 
 const Logo = ({ location }) => {
-  const [item, updateItem] = useState(Store)
+  const [item, updateItem] = useState(Logos)
 
   useEffect(() => {
     const ID = location.pathname.split("/")[2]
-    updateItem(Store.find(el => el.id === ID))
+    updateItem(Logos.find(el => el.id === ID))
   }, [])
 
   const isAvailable= item.availability;
@@ -24,7 +24,7 @@ const Logo = ({ location }) => {
         <section className="img logo-img">
           <img src={item.img} alt={item.name}></img>
          
-          {isAvailable != "Available"? (
+          {isAvailable !== "Available"? (
             <p class="tag">{item.availability}</p>
           ) : (
           null
@@ -34,7 +34,7 @@ const Logo = ({ location }) => {
         <section className="logo-info">
           <h1>{item.name}</h1>
           <p>{item.description}</p>
-          {isAvailable == "Available"? (
+          {isAvailable === "Available"? (
             <a href="https://github.com/PROTechThor/libre-logos/" class="claim">
             Claim this logo
             </a>

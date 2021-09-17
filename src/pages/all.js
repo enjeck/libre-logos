@@ -1,13 +1,13 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import StoreGrid from "../components/storegrid"
-import { Store } from "../data/store"
+import LogosGrid from "../components/logosgrid"
+import { Logos } from "../data/logos"
 
 const All = () => (
   <Layout>
     <SEO title="All logos" />
-    <StoreGrid logos={Store} />
+    <LogosGrid logos={Logos} />
   </Layout>
 )
 
