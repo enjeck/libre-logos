@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="26.325857mm"
+   height="26.625179mm"
+   viewBox="0 0 26.325857 26.625179"
+   version="1.1"
+   id="svg34040"
+   inkscape:version="1.1 (1:1.1+202105261517+ce6663b3b7)"
+   sodipodi:docname="free-icon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview34042"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.75187991"
+     inkscape:cx="1.9949994"
+     inkscape:cy="32.584991"
+     inkscape:window-width="1848"
+     inkscape:window-height="1016"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs34037" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-104.37024,-140.11395)">
+    <g
+       id="g33527"
+       transform="translate(123.52266,-204.19049)">
+      <path
+         id="rect6433"
+         style="fill:none;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         d="m -2.677291,344.83361 c -0.2434,0 -0.4867959,0.0414 -0.719155,0.12391 h -6.26e-4 v 1.1e-4 c -0.2949406,0.10477 -0.5721271,0.27588 -0.8088746,0.51362 l -13.7862364,13.84371 c -0.84663,0.85016 -0.84663,2.21906 0,3.06922 l 7.352874,7.3835 c 0.8466363,0.85015 2.209859,0.85015 3.0564932,0 L 6.2034208,355.92396 c 0.6300218,-0.56532 0.3998601,-1.98041 0.3998601,-1.98041 0,0 -0.118644,-2.08202 -0.4192668,-6.0843 -0.054301,-1.7463 -1.8100198,-2.11314 -1.8100198,-2.11314 0,0 -4.93014216,-0.89872 -7.0519092,-0.91249 z"
+         sodipodi:nodetypes="ccccssscccccccc" />
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:1.5875;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         id="path8766"
+         cx="1.8331009"
+         cy="350.1106"
+         r="1.4565213" />
+      <g
+         aria-label="FREE"
+         transform="rotate(-45)"
+         id="text11421"
+         style="font-size:7.08636px;line-height:1.25;letter-spacing:0px;word-spacing:0px;stroke-width:0.177159">
+        <path
+           d="m -264.72781,247.12253 v 1.50862 h 2.0484 v 0.78891 h -2.0484 v 1.78889 h -0.83735 v -4.87533 h 2.94803 v 0.78891 z"
+           style="font-weight:bold;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow Bold'"
+           id="path33493" />
+        <path
+           d="m -259.26771,251.20895 -0.92732,-1.85117 h -0.98268 v 1.85117 h -0.83735 v -4.87533 h 1.9965 q 0.37369,0 0.65396,0.10381 0.28027,0.10034 0.46712,0.29065 0.18685,0.18684 0.27681,0.45673 0.0934,0.26644 0.0934,0.60207 0,0.27335 -0.0657,0.50172 -0.0657,0.22491 -0.18338,0.40137 -0.11765,0.17647 -0.28028,0.29758 -0.16262,0.11764 -0.35293,0.173 l 1.08302,2.0484 z m -0.10035,-3.38055 q 0,-0.35639 -0.19377,-0.5294 -0.1903,-0.17301 -0.54324,-0.17301 h -1.07264 v 1.43942 h 1.0934 q 0.18685,0 0.3218,-0.0519 0.13494,-0.0554 0.22145,-0.15225 0.0865,-0.10034 0.12802,-0.23529 0.045,-0.13494 0.045,-0.29757 z"
+           style="font-weight:bold;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow Bold'"
+           id="path33495" />
+        <path
+           d="m -257.82138,251.20895 v -4.87533 h 3.14527 v 0.78891 h -2.30791 v 1.22489 h 2.1349 v 0.78891 h -2.1349 v 1.28371 h 2.42209 v 0.78891 z"
+           style="font-weight:bold;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow Bold'"
+           id="path33497" />
+        <path
+           d="m -253.94602,251.20895 v -4.87533 h 3.14526 v 0.78891 h -2.30791 v 1.22489 h 2.1349 v 0.78891 h -2.1349 v 1.28371 h 2.4221 v 0.78891 z"
+           style="font-weight:bold;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow Bold'"
+           id="path33499" />
+      </g>
+    </g>
+  </g>
+</svg>
