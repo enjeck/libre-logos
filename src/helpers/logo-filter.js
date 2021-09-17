@@ -1,4 +1,4 @@
-import { Store } from "../data/store"
+import { Logos } from "../data/logos"
 
-export const FilterLogos = category =>
-  Store.filter(item => item.category === category)
+export const FilterLogos = availability =>
+  Logos.filter(item => item.availability === availability)
