@@ -1,6 +1,6 @@
 # Libre Logos
 
-This project aims to 
+Libre Logos is a library of free logos.
 The logos are intended for open source projects and NGOs.
 This website is built with Gatsby, a site generator based on React. The `logo` route is dynamically generated using the Gatsby createPage API. To stop the client side router serving the 404 page on `/logo` requests, there is a [conditional check](./src/pages/404.js).
 
