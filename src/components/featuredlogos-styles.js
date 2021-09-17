@@ -5,16 +5,20 @@ export const Featured = styled.section`
 
   .featureditems {
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     margin: 20px 0 70px;
+    gap: 10px;
 
     .item {
       border: 1px solid #eee;
       box-shadow: 0 3px 10px 0px #eee;
       padding: 10px 20px 30px;
-      min-height: 150px;
-      justify-self: center;
-      align-self: center;
-      text-align: center;
+     
+    }
+    img{
+      width:100%;
     }
   }
 
@@ -24,7 +28,7 @@ export const Featured = styled.section`
   }
 
   h2 {
-    color: #d96528;
+    color: #FF3700;
     text-align: center;
     overflow: hidden;
   }
@@ -40,7 +44,7 @@ export const Featured = styled.section`
     display: block;
     height: 1px;
     width: 1000px;
-    background: #e6baa4;
+    background: #FF3700;
     position: absolute;
     top: 50%;
   }
@@ -53,10 +57,14 @@ export const Featured = styled.section`
     right: -1010px;
   }
 
-  @media screen and (max-width: 699px) {
+  @media screen and (max-width: 800px) {
     .featureditems {
       width: 83vw;
       margin-left: 5vw;
+
+    .item {
+      width: 250px;
+    }
 
       div {
         padding: 10px 20px;
@@ -69,10 +77,10 @@ export const Featured = styled.section`
     }
   }
 
-  @media screen and (min-width: 700px) {
+  @media screen and (min-width: 800px) {
     .featureditems {
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
       grid-template-rows: 1fr;
       grid-column-gap: 20px;
       grid-row-gap: 0px;

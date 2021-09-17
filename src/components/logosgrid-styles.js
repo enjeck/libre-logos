@@ -7,7 +7,7 @@ export const StyledGroup = styled(TransitionGroup)`
 `
 
 export const Item = styled.div`
-  height: 400px;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;

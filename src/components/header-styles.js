@@ -7,7 +7,22 @@ export const Head = styled.header`
   align-items: center;
   padding: 40px 40px 0;
   text-transform: uppercase;
-  color: #9900cc;
+  color: #FF3700;
+  font-weight: bold;
+
+  img {
+    width: 100px;
+  }
+
+  h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #FF3700;
+    text-shadow: 1px 1px 4px #FFD83E;
+    margin: 0;
+  }
+
 
   @media screen and (max-width: 900px) {
     h1 {
@@ -15,8 +30,7 @@ export const Head = styled.header`
     }
     nav ul li {
       padding: 0 5px !important;
-      border-left: none !important;
-      border-right: none !important;
+      
     }
   }
 `
@@ -45,7 +59,7 @@ export const Nav = styled.nav`
       a {
         color: black;
         &:hover {
-          color: #c14103;
+          color: #FF3700;
         }
       }
     }

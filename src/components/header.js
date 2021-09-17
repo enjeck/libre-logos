@@ -2,12 +2,15 @@ import React from "react"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import { Head, Nav } from "./header-styles"
+import llLogo from "../images/ll-logo.svg"
 
 const Header = ({ siteTitle }) => {
 
   return (
     <Head>
+      <Link to="/" style={{textAlign:"center"}}>  <img src={llLogo} alt="Libre Logos"/>
       <h1>{siteTitle}</h1>
+      </Link>
       <Nav>
         <ul>
           <li>
@@ -17,10 +20,10 @@ const Header = ({ siteTitle }) => {
             <Link to="/all">All Logos</Link>
           </li>
           <li>
-            <Link to="/available">Available Logos</Link>
+            <Link to="/available">Available </Link>
           </li>
           <li>
-            <Link to="/claimed">Claimed Logos</Link>
+            <Link to="/claimed">Claimed </Link>
           </li>
         </ul>
       </Nav>

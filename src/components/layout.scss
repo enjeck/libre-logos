@@ -1,6 +1,6 @@
 /* Variables */
 
-$primary-color: #9900cc;
+$primary-color: #FF3700;
 $secondary-color: #6600cc;
 
 /* Global   */
@@ -23,6 +23,7 @@ main {
   padding: 0;
   width: 95vw;
   margin-left: 2vw;
+  min-height: 50vh;
 }
 
 @media screen and (min-width: 1000px) {
@@ -64,7 +65,7 @@ p {
 a,
 a:active,
 a:visited {
-  color: $primary-color;
+  color: blue;
   text-decoration: none;
   transition: 0.3s all ease;
 }
@@ -94,7 +95,7 @@ a.claim {
   padding: 10px;
   font-weight: bold;
   &:hover {
-    background: #c14103;
+    background:  #C14103;
   }
 }
 
@@ -150,25 +151,26 @@ input {
   position: absolute;
   left: 10px;
   top: 10px;
-  background-color: #c14103;
+  background-color: #FF3700;
   color: white;
   font-weight: bold;
   padding: 10px;
   border-radius: 5px;
 }
-/* Store Grid */
+/* Logos Grid */
 
-.storegrid {
+.logosgrid {
   width: 100%;
   display: grid;
   grid-template-columns: 3fr;
   grid-template-rows: 1fr;
   grid-column-gap: 20px;
   grid-row-gap: 0px;
+  text-align: center;
 }
 
 .img-contain {
-  max-height: 290px;
+  max-height: 300px;
   display: flex;
   align-content: center;
   align-items: center;
@@ -187,7 +189,7 @@ input {
   width: 79.7872%;
   /* grid */
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
   padding: 0 !important;
 }
@@ -205,17 +207,8 @@ input {
   }
 }
 
-.similar-container {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
 
 @media (max-width: 600px) {
-  aside {
-    width: 100% !important;
-    margin-bottom: 10px !important;
-  }
 
   .content {
     width: 100% !important;
@@ -230,32 +223,11 @@ input {
 }
 
 @media screen and (max-width: 550px) {
-  .storegrid {
+  .logosgrid {
     width: 90%;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2fr;
     grid-template-rows: 1fr;
     grid-column-gap: 10px;
   }
-}
-
-/* items animation  */
-
-.items-leave-active {
-  transition: opacity 0.2s ease-out, scale 0.2s ease-out;
-}
-
-.items-move {
-  transition: opacity 0.2s ease-out, scale 0.2s ease-out;
-}
-
-.items-enter-active {
-  transition: opacity 0.2s ease-out, scale 0.2s ease-out;
-}
-
-.items-enter,
-.items-leave-to {
-  opacity: 0;
-  transform: scale(0.9);
-  transform-origin: 50% 50%;
 }

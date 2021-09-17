@@ -1,17 +1,16 @@
 import React, { useState } from "react"
 import { CSSTransition } from "react-transition-group"
-import { StyledGroup, Item} from "./storegrid-styles"
+import { StyledGroup, Item} from "./logosgrid-styles"
 import PropTypes from "prop-types"
 
-const StoreGrid = ({ logos }) => {
+const LogosGrid = ({ logos }) => {
 
   const [filteredLogos] = useState(logos)
 
   return (
-    <div className="storegrid">
+    <div className="logosgrid">
       <StyledGroup className="content">
         {filteredLogos.map(item => (
-          <CSSTransition key={item.id} timeout={100} classNames="items">
             <Item>
               <div className="img-contain">
                 <a href={`logo/${item.id}`}>
@@ -19,18 +18,17 @@ const StoreGrid = ({ logos }) => {
                 </a>
               </div>
               <a href={`logo/${item.id}`}>
-              <h3>{item.name}</h3>
+              <h3 style={{color:"blue"}}>{item.name}</h3>
               </a>
             </Item>
-          </CSSTransition>
         ))}
       </StyledGroup>
     </div>
   )
 }
 
-StoreGrid.propTypes = {
+LogosGrid.propTypes = {
   logos: PropTypes.array,
 }
 
-export default StoreGrid
+export default LogosGrid

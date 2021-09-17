@@ -8,7 +8,7 @@ const Footer = () => {
       <FooterLinks />
       <Blurb>
         <p>
-        Copyright © 2021 Enjeck M.C. All rights reserved.
+        Copyright 2021. All rights reserved.
         </p>
       </Blurb>
     </footer>

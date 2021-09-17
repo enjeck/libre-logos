@@ -1,8 +1,8 @@
 import React from "react"
 import { Boxes } from "./features-styles"
-import iconFree from "../images/free.svg"
-import iconVector from "../images/vector.svg"
-import iconTrade from "../images/trademark.svg"
+import iconFree from "../images/free-icon.svg"
+import iconVector from "../images/vector-icon.svg"
+import iconTrade from "../images/exclusive-icon.svg"
 
 const data = [
   {
