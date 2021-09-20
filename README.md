@@ -5,6 +5,8 @@ The logos are intended for open source projects and NGOs.
 
 Designers are invited to contribute.
 
+**The logo designs are meant to be unique, and there's no intention to steal creative property. If you find a logo that looks too similar to an existing brand, let me know so that it can be removed**
+
 ## Screenshots
 
 ![](screenshot.png)
