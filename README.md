@@ -11,26 +11,28 @@ Designers are invited to contribute.
 
 ![](screenshot.png)
 
-## Website
+## Claiming a logo
 
-This website is built with Gatsby, a site generator based on React. The `logo` route is dynamically generated using the Gatsby createPage API. To stop the client side router serving the 404 page on `/logo` requests, there is a [conditional check](./src/pages/404.js).
+### Eligibility
+To claim a logo, you must an active open source project or a registered NGO. "Active" here means:
+- Regular commits 
+- More than one contributor
+- Over 100 GitHub stars
+- Git history spanning over 1 year
 
-In the future, this website may be rewritten and architected to use of Gatsby's new [File System Router API](https://www.gatsbyjs.com/docs/reference/routing/creating-routes/#using-the-file-system-route-api).
+In addition, your project should be a good fit for the selected logo. Each logo has a short description that specifies the kind of project it is suitable for.
 
-To build a local version:
+### Processs
+- To begin claiming a logo, create a GitHub issue, using the ["logo request" issue template](https://github.com/enjeck/libre-logos/issues/new?assignees=&labels=logo+request&template=logo-request.md&title=Logo+request). Please fill the template completely. The more information you provide, the faster your request will be processed.
+- Your issue will be reviewed. The "under review" label may be added to the issue.
+- If your project is eligible and the requested logo is available, you will be informed that you have claimed the logo. Once the logo is marked as "Claimed" on the [logo list](src/data/logos.js) and `R: Granted` label is added to the issue, the requested logo is officially yours. Congratulations! At this point, all copyright transfers to your project. 
 
-1. Clone the repository
+## Contributing
 
-    ``` 
-    git clone https://github.com/PROTechThor/libre-logos.git
-    ```
-2. Enter the project folder and install node modules
+Thank you for your interest! Please check out the [contributing guide](CONTRIBUTING.md).
 
-    ``` 
-    cd libre-logos
-    npm install 
-    ```
-3. Run
-    - `npm start` to develop
-    - `npm run build` to build
-    - `npm run serve` to serve built site
+## License
+
+All logos are licensed under [Creative Commons Zero](LICENSE).
+
+This source code for the website is given the MIT License.
