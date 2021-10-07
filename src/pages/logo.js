@@ -35,7 +35,7 @@ const Logo = ({ location }) => {
           <h1>{item.name}</h1>
           <p>{item.description}</p>
           {isAvailable === "Available"? (
-            <a href="https://github.com/enjeck/libre-logos/" class="claim">
+            <a href="https://github.com/enjeck/libre-logos/issues/new?assignees=&labels=logo+request&template=logo-request.md&title=Logo+request" class="claim">
             Claim this logo
             </a>
           ) : (
