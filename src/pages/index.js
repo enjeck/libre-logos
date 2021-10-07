@@ -9,6 +9,10 @@ const IndexPage = () => (
     <SEO title="Home" />
     <h2 style={{fontSize: "2.6rem", marginTop: "40px", color:"#FF3700"}}>Free, exclusive logos</h2>
     <h5 style={{fontSize: "1.1rem", textTransform:"uppercase",color:"#333"}}> For open source projects and NGOs </h5>
+    <a href="https://www.producthunt.com/posts/librelogos-org?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-librelogos-org" 
+    target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=315135&theme=light" 
+    alt="librelogos.org - Free, exclusive logos for open source projects & NGOs | Product Hunt" 
+    style={{marginTop: "20px", width: "250px", height: "54px"}} width="250" height="54" /></a>
     <Features />
     <div style={{maxWidth: "800px"}}>
       <h3 style={{fontSize: "2rem"}}>
