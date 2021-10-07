@@ -42,13 +42,13 @@ const FooterLinks = () => {
   return (
     <Links>
       <ul>
-        <li> <a href="https://github.com/PROTechThor/libre-logos#readme"> About</a></li>
-        <li><a href="https://github.com/PROTechThor/libre-logos#contribute">Contribute</a></li>
-        <li><a href="https://github.com/PROTechThor/libre-logos">GitHub</a></li>
+        <li> <a href="https://github.com/enjeck/libre-logos#readme"> About</a></li>
+        <li><a href="https://github.com/enjeck/libre-logos/blob/main/CONTRIBUTING.md">Contribute</a></li>
+        <li><a href="https://github.com/enjeck/libre-logos">GitHub</a></li>
       </ul>
       <ul>
         <h4>Be notified when new logos are added:</h4>
-      <p>Star and watch the repo on <a href="https://github.com/PROTechThor/libre-logos">GitHub</a></p>
+      <p>Star and watch the repo on <a href="https://github.com/enjeck/libre-logos">GitHub</a></p>
       </ul>
     </Links>
   )

@@ -1,6 +1,6 @@
 ## Contributing
 
-We are primarily looking for contributions from designers and developers. If you can design logos or improve the website, please dp!
+We are primarily looking for contributions from designers and developers. If you can design logos or improve the website, please do!
 
 ### Adding your logo 
 
@@ -51,6 +51,8 @@ Once a logo is added to the collection, copyright belongs to you (the designer) 
 
 ### Contributing to the website
 
+If you intend to make changes to the website, here are some things you should know:
+
 #### Technical details
 
 The [librelogos.org](https://www.librelogos.org/) website is built with Gatsby, a site generator based on React.
@@ -66,7 +68,7 @@ In the future, this website may be rewritten and architected to use of Gatsby's 
 1. Clone the repository
 
     ``` 
-    git clone https://github.com/PROTechThor/libre-logos.git
+    git clone https://github.com/enjeck/libre-logos.git
     ```
 2. Enter the project folder and install node modules
 
@@ -81,4 +83,4 @@ In the future, this website may be rewritten and architected to use of Gatsby's 
 
 ### Other ways to contribute
 
-Aside from submitting a logo or improving the codebase, there are other things you can do. The easiest way to contribute is to [create an issue](https://github.com/enjeck/libre-logos/issues/new) reporting a bug or requesting a feature. For example, if there's a spelling error, broken link, something that doesn't work as expected, let me know. It's okay to suggest improvements to existing logos, but asking for custom logo will likely not be addressed. 
+Aside from submitting a logo or adding to the codebase, there are other things you can do. The easiest way to contribute is to [create an issue](https://github.com/enjeck/libre-logos/issues/new) reporting a bug or requesting a feature. For example, if there's a spelling error, broken link, something that doesn't work as expected, let me know. It's okay to suggest improvements to existing logos, but asking for custom logo will likely not be addressed. 
