@@ -178,7 +178,7 @@ export const Logos = [
     description:
     `Minimalist abstract logo depiction full circle surrounded by half circles.
     suitable for any type of project.`,
-    availability: "Available",
+    availability: "Claimed",
     name: "Minimal Cicle Logo",
     img: fourteen,
   },
