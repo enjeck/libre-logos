@@ -1,7 +1,7 @@
 ---
 name: Logo request
 about: Request for a logo
-title: Logo request
+title: ''
 labels: logo request
 assignees: ''
 
