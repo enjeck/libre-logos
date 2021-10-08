@@ -86,7 +86,7 @@ export const Logos = [
        readability even in small format or when viewed from far away. 
        The ram represents strength. 
       This logo is best suited for security and financial projects.`,
-    availability: "Available",
+    availability: "Claimed",
     name: "Minimalist Golden Line Ram Logo",
     img: five,
   },
