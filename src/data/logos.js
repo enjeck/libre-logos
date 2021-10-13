@@ -1,44 +1,43 @@
-import one from "../images/logos/1-pen-lighthouse.png"
-import two from "../images/logos/2-split-circle.png"
-import three from "../images/logos/3-dog-greenery.png"
-import four from "../images/logos/4-interlocking-lines.png"
-import five from "../images/logos/5-golden-ram-line.png"
-import six from "../images/logos/6-person-arrow-hands.png"
-import seven from "../images/logos/7-night-star.png"
-import eight from "../images/logos/8-polar-bear-star.png"
-import nine from "../images/logos/9-clover-tech.png"
-import ten from "../images/logos/10-vortex-illusion.png"
-import eleven from "../images/logos/11-arrow-tree.png"
-import twelve from "../images/logos/12-gladiator-sparta-head.png"
-import thirteen from "../images/logos/13-pixel-fox.png"
-import fourteen from "../images/logos/14-full-half-circles.png"
-import fifteen from "../images/logos/15-square-ying-yang.png"
-import sixteen from "../images/logos/16-sunrise-on-water.png"
-import seventeen from "../images/logos/17-witch-hat.png"
-import eighteen from "../images/logos/18-geometric-rock.png"
-import nineteen from "../images/logos/19-box-stack.png"
-import twenty from "../images/logos/20-geometric-stacked-shapes.png"
-import twentyone from "../images/logos/21-analytics-box.png"
-import twentytwo from "../images/logos/22-code-sheriff.png"
-import twentythree from "../images/logos/23-colorful-diamond-flower.png"
-import twentyfour from "../images/logos/24-abstract-box-hexagon-arrows.png"
-import twentyfive from "../images/logos/25-cloud-geek.png"
-import twentysix from "../images/logos/26-four-joined-squares.png"
-import twentyseven from "../images/logos/27-code-glasses.png"
-import twentyeight from "../images/logos/28-unicorn-in-circle.png"
-import twentynine from "../images/logos/29-hexagon-lion-face.png"
-import thirty from "../images/logos/30-interlock-chat-video.png"
-import thirtyone from "../images/logos/31-rocket-triangles.png"
-import thirtytwo from "../images/logos/32-line-gazelle.png"
-import thirtythree from "../images/logos/33-game-robot.png"
-import thirtyfour from "../images/logos/34-side-hexagon-tech.png"
-import thirtyfive from "../images/logos/35-geometric-pineapple.png"
+import one from "../images/logos/001-pen-lighthouse.png"
+import two from "../images/logos/002-split-circle.png"
+import three from "../images/logos/003-dog-greenery.png"
+import four from "../images/logos/004-interlocking-lines.png"
+import five from "../images/logos/005-golden-ram-line.png"
+import six from "../images/logos/006-person-arrow-hands.png"
+import seven from "../images/logos/007-night-star.png"
+import eight from "../images/logos/008-polar-bear-star.png"
+import nine from "../images/logos/009-clover-tech.png"
+import ten from "../images/logos/010-vortex-illusion.png"
+import eleven from "../images/logos/011-arrow-tree.png"
+import twelve from "../images/logos/012-gladiator-sparta-head.png"
+import thirteen from "../images/logos/013-pixel-fox.png"
+import fourteen from "../images/logos/014-full-half-circles.png"
+import fifteen from "../images/logos/015-square-ying-yang.png"
+import sixteen from "../images/logos/016-sunrise-on-water.png"
+import seventeen from "../images/logos/017-witch-hat.png"
+import eighteen from "../images/logos/018-geometric-rock.png"
+import nineteen from "../images/logos/019-box-stack.png"
+import twenty from "../images/logos/020-geometric-stacked-shapes.png"
+import twentyone from "../images/logos/021-analytics-box.png"
+import twentytwo from "../images/logos/022-code-sheriff.png"
+import twentythree from "../images/logos/023-colorful-diamond-flower.png"
+import twentyfour from "../images/logos/024-abstract-box-hexagon-arrows.png"
+import twentyfive from "../images/logos/025-cloud-geek.png"
+import twentysix from "../images/logos/026-four-joined-squares.png"
+import twentyseven from "../images/logos/027-code-glasses.png"
+import twentyeight from "../images/logos/028-unicorn-in-circle.png"
+import twentynine from "../images/logos/029-hexagon-lion-face.png"
+import thirty from "../images/logos/030-interlock-chat-video.png"
+import thirtyone from "../images/logos/031-rocket-triangles.png"
+import thirtytwo from "../images/logos/032-line-gazelle.png"
+import thirtythree from "../images/logos/033-game-robot.png"
+import thirtyfour from "../images/logos/034-side-hexagon-tech.png"
+import thirtyfive from "../images/logos/035-geometric-pineapple.png"
 
 export const Logos = [
   {
     id: "1",
-    description:
-      `Logo depicting a pen lighthouse. 
+    description: `Logo depicting a pen lighthouse. 
       This logo can be seen metaphorically as a pen beacon which shines 
       the light of creativity around, for vessels/ships of authors 
       searching for ideas in the sea of darkness.
@@ -59,8 +58,7 @@ export const Logos = [
   },
   {
     id: "3",
-    description:
-      `A creative, clean, elegant, colorful, professional, unique, 
+    description: `A creative, clean, elegant, colorful, professional, unique, 
       and modern dog logo design. Logo can be used in black and 
       white too. The pointer dog symbolizes protection, loyalty and guidance. 
       This logo is suitable for many industries, ranging from security
@@ -71,8 +69,7 @@ export const Logos = [
   },
   {
     id: "4",
-    description:
-      `Three elegant geometric shapes is interlocking one another. 
+    description: `Three elegant geometric shapes is interlocking one another. 
        This logo is best suited for software projects.`,
     availability: "Available",
     name: "Interlocking Abstract Symbols Logo",
@@ -80,8 +77,7 @@ export const Logos = [
   },
   {
     id: "5",
-    description:
-      `Minimalist, stylized ram logo shaped with lines forming a ram 
+    description: `Minimalist, stylized ram logo shaped with lines forming a ram 
       with defined spiral horns. The logo uses thick lines and shapes to ensure
        readability even in small format or when viewed from far away. 
        The ram represents strength. 
@@ -92,8 +88,7 @@ export const Logos = [
   },
   {
     id: "6",
-    description:
-    `This logo consists of a person in a celebration pose that symbolizes victory,
+    description: `This logo consists of a person in a celebration pose that symbolizes victory,
     having arrows for hands which symbolizes growth.
     The design conveys success, achievement, gains advanced, victory, and triumph. 
     A logo ideal for projects/organisations related to sports, consulting, 
@@ -105,8 +100,7 @@ export const Logos = [
   },
   {
     id: "7",
-    description:
-    `An elegant luxurious logo of the night sky, complete with 
+    description: `An elegant luxurious logo of the night sky, complete with 
     a star and moon. 
     This logo works well for any type of project or organization.`,
     availability: "Available",
@@ -115,8 +109,7 @@ export const Logos = [
   },
   {
     id: "8",
-    description:
-      `Beautiful, modern logo of polar bear facing the Northern/Polaris Star. 
+    description: `Beautiful, modern logo of polar bear facing the Northern/Polaris Star. 
       Suitable for any project or organisation.`,
     availability: "Available",
     name: "Polar Bear Northern Star Logo",
@@ -124,8 +117,7 @@ export const Logos = [
   },
   {
     id: "9",
-    description:
-    `This modern logo design features a stylized four leaf clover.
+    description: `This modern logo design features a stylized four leaf clover.
     Each leaf is styled with an integrated circuit-type line. 
     It represents modernity, technology, security and community.
     The logo is fit for tech organisations and software projects.`,
@@ -135,17 +127,15 @@ export const Logos = [
   },
   {
     id: "10",
-    description:
-    `Clean, beautiful optical illusion vortex logo. 
+    description: `Clean, beautiful optical illusion vortex logo. 
     It is ideal for any project or organisation.`,
-     availability: "Available",
+    availability: "Available",
     name: "Vortex Optical Illusion Logo",
     img: ten,
   },
   {
     id: "11",
-    description:
-    `Minimal logo of several arrows stacked into a tree shape. 
+    description: `Minimal logo of several arrows stacked into a tree shape. 
     The arrows pointing upwards symbolize growth/development,
     and a tree symbolizes strength and resistance. 
     Suitable for all projects, especially those related to environment
@@ -156,8 +146,7 @@ export const Logos = [
   },
   {
     id: "12",
-    description:
-    `Stylish Spartan helmet logo design, with badass slash in the eye.
+    description: `Stylish Spartan helmet logo design, with badass slash in the eye.
     It reflects values like safety, protection, security, strength, endurance and trust.
     It is ideal for financial, gaming, sports and security projects/organisations.`,
     availability: "Available",
@@ -166,8 +155,7 @@ export const Logos = [
   },
   {
     id: "13",
-    description:
-    `Simple logo of a fox pixelized fox head. 
+    description: `Simple logo of a fox pixelized fox head. 
     It is great for any technology and software projects/organisation.`,
     availability: "Available",
     name: "Minimal Pixel Fox Head Logo",
@@ -175,8 +163,7 @@ export const Logos = [
   },
   {
     id: "14",
-    description:
-    `Minimalist abstract logo depiction full circle surrounded by half circles.
+    description: `Minimalist abstract logo depiction full circle surrounded by half circles.
     suitable for any type of project.`,
     availability: "Claimed",
     name: "Minimal Cicle Logo",
@@ -184,8 +171,7 @@ export const Logos = [
   },
   {
     id: "15",
-    description:
-    `Minimal professional black and white Ying Yang logo in square shape. 
+    description: `Minimal professional black and white Ying Yang logo in square shape. 
     The logo is good for any project.`,
     availability: "Available",
     name: "Square Ying Yang Zen Logo",
@@ -193,8 +179,7 @@ export const Logos = [
   },
   {
     id: "16",
-    description:
-    `Abstract, modern, minimalist logo of sun rising from the ocean. 
+    description: `Abstract, modern, minimalist logo of sun rising from the ocean. 
     A general logo suitable for any project or organisation.`,
     availability: "Available",
     name: "Sunrise from Ocean Circular logo",
@@ -202,8 +187,7 @@ export const Logos = [
   },
   {
     id: "17",
-    description:
-    `A simple logo depicting a witch or wizard's hat.
+    description: `A simple logo depicting a witch or wizard's hat.
     Perfect for gaming, sports, tech and entertainment projects.`,
     availability: "Available",
     name: "Stylized Witch/Wizard Hat Logo",
@@ -211,8 +195,7 @@ export const Logos = [
   },
   {
     id: "18",
-    description:
-    `Simple logo of triangles joined to form a mineral-like obsidian structure.
+    description: `Simple logo of triangles joined to form a mineral-like obsidian structure.
     A general logo suitable for any project or organisation.`,
     availability: "Available",
     name: "Geometric Triangle Logo",
@@ -220,8 +203,7 @@ export const Logos = [
   },
   {
     id: "19",
-    description:
-    `Minimalist, simple logo of stacked black boxes. 
+    description: `Minimalist, simple logo of stacked black boxes. 
     Ideal for any project, especially those related to transport and logistics.`,
     availability: "Available",
     name: "Minimalist Stacked Cubes Logo",
@@ -229,8 +211,7 @@ export const Logos = [
   },
   {
     id: "20",
-    description:
-    `Abstract logo of two geometric shapes stacked. 
+    description: `Abstract logo of two geometric shapes stacked. 
     Suitable for any organisation, especially software projects.`,
     availability: "Available",
     name: "Abstract Geometric Stacked Shapes Logo",
@@ -238,8 +219,7 @@ export const Logos = [
   },
   {
     id: "21",
-    description:
-    `Professional, elegant, analytics graph logo. It features a 
+    description: `Professional, elegant, analytics graph logo. It features a 
     square with analytics-like lines.
     Suitable for any organisation, especially finance projects.`,
     availability: "Available",
@@ -248,8 +228,7 @@ export const Logos = [
   },
   {
     id: "22",
-    description:
-    `Simple but clever logo featuring a sheriff head built with
+    description: `Simple but clever logo featuring a sheriff head built with
     several code symbols. Ideal for programming education or code
     quality projects. `,
     availability: "Available",
@@ -258,8 +237,7 @@ export const Logos = [
   },
   {
     id: "23",
-    description:
-    `Colorful logo of four smaller diamonds forming a larger diamond shape. 
+    description: `Colorful logo of four smaller diamonds forming a larger diamond shape. 
     A general logo suitable for any project or organisation.`,
     availability: "Available",
     name: "Colorful Abstract Diamond logo",
@@ -267,8 +245,7 @@ export const Logos = [
   },
   {
     id: "24",
-    description:
-    `Abstract logo of cube in a hexagon box, with several arrows. Uses multiple colors to enhance the 
+    description: `Abstract logo of cube in a hexagon box, with several arrows. Uses multiple colors to enhance the 
     effect. 
     Ideal for any project, especially those related to blockchain, transport, logistics and 
     cloud/container technology. `,
@@ -278,8 +255,7 @@ export const Logos = [
   },
   {
     id: "25",
-    description:
-    `Logo depicting a man with cloud-y hair wearing glasses. It signifies an 
+    description: `Logo depicting a man with cloud-y hair wearing glasses. It signifies an 
     expert in cloud-related technologies. This logo is perfect for cloud software
     projects.`,
     availability: "Available",
@@ -288,8 +264,7 @@ export const Logos = [
   },
   {
     id: "26",
-    description:
-    `Logo of four square lines joining into to form a bigger square. 
+    description: `Logo of four square lines joining into to form a bigger square. 
     The logo works for any type of project.`,
     availability: "Available",
     name: "Stylized Squares Logo",
@@ -297,8 +272,7 @@ export const Logos = [
   },
   {
     id: "27",
-    description:
-    `Simple logo of glasses having a pair of curly braces. 
+    description: `Simple logo of glasses having a pair of curly braces. 
     Good for programming education or code quality software projects`,
     availability: "Available",
     name: "Code Glasses Logo",
@@ -306,8 +280,7 @@ export const Logos = [
   },
   {
     id: "28",
-    description:
-    `Modern logo of unicorn's head composed fit in a circular shape with 
+    description: `Modern logo of unicorn's head composed fit in a circular shape with 
     horn poking out. A logo fitting for brands that intend to give a modern 
     yet sophisticated impression. Apart from being magical, unicorns symbolize 
     power and infinite possibilities!
@@ -319,8 +292,7 @@ export const Logos = [
   },
   {
     id: "29",
-    description:
-    `Several hexagons come together to form a lion head.
+    description: `Several hexagons come together to form a lion head.
     The lion represents strength, leadership, control and supremacy. 
     This logo works for organisations and projects related to
     real estate, architecture, construction, consulting, finance,
@@ -331,8 +303,7 @@ export const Logos = [
   },
   {
     id: "30",
-    description:
-    `Two chat icons intersect to form a video icon in the negative space.
+    description: `Two chat icons intersect to form a video icon in the negative space.
     This logo is ideal for foftware projects in the entertainment and 
     communication domain.`,
     availability: "Available",
@@ -341,8 +312,7 @@ export const Logos = [
   },
   {
     id: "31",
-    description:
-    `Simple geometric logo showing several logos forming the shape of 
+    description: `Simple geometric logo showing several logos forming the shape of 
     a rocket taking off.
     A lifted rocket symbolizes growth and reaching for the starts. 
     This icon is suitable for any project or organisation.`,
@@ -352,8 +322,7 @@ export const Logos = [
   },
   {
     id: "32",
-    description:
-    `Elegant and playful line logo of running gazelle / impala / antelope.
+    description: `Elegant and playful line logo of running gazelle / impala / antelope.
     Can be used by a project/organisation in any domain, but it is ideal for
     wildlife conservation, tourism, consulting and fashion projects.`,
     availability: "Available",
@@ -362,8 +331,7 @@ export const Logos = [
   },
   {
     id: "33",
-    description:
-    `Cute, simple logo of a robot head with game controls for eyes.
+    description: `Cute, simple logo of a robot head with game controls for eyes.
     This icon is suitable for gaming projects.`,
     availability: "Available",
     name: "Cute Robot Head Game Logo",
@@ -371,8 +339,7 @@ export const Logos = [
   },
   {
     id: "34",
-    description:
-    `Simple, beautiful gradient logo of a hexagon with tech circuit lines.
+    description: `Simple, beautiful gradient logo of a hexagon with tech circuit lines.
     This icon is fitting for tech and software projects/organisations.`,
     availability: "Available",
     name: "Side Hexagon Tech Logo",
@@ -380,12 +347,10 @@ export const Logos = [
   },
   {
     id: "35",
-    description:
-    `Unique, elegant geometric pineapple fruit cube logo composed of several shapes.
+    description: `Unique, elegant geometric pineapple fruit cube logo composed of several shapes.
     This mark is works for projects/organisations in any industry.`,
     availability: "Available",
     name: "Geometric Pineapple Cube Logo",
     img: thirtyfive,
   },
-  
 ]
