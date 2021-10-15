@@ -185,7 +185,7 @@ export const Logos = [
   {
     id: "15",
     description:
-    `Minimal professional black and white Ying Yang logo in square shape. 
+    `Minimal professional black and white Yin Yang logo in square shape. 
     The logo is good for any project.`,
     availability: "Available",
     name: "Square Yin Yang Zen Logo",
