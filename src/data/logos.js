@@ -33,6 +33,7 @@ import thirtytwo from "../images/logos/32-line-gazelle.png"
 import thirtythree from "../images/logos/33-game-robot.png"
 import thirtyfour from "../images/logos/34-side-hexagon-tech.png"
 import thirtyfive from "../images/logos/35-geometric-pineapple.png"
+import imageName from "../images/logos/36-LOGO R - orange & red.png"
 
 export const Logos = [
   {
@@ -387,5 +388,12 @@ export const Logos = [
     name: "Geometric Pineapple Cube Logo",
     img: thirtyfive,
   },
-  
+  {
+    id: "36",
+    description: `Capital R letter in orange color with a red shadow`,
+    availability: "Available",
+    name: "Orange R Capital",
+    img: thirtysix,
+},
+
 ]
