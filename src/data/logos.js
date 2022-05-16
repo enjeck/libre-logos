@@ -313,7 +313,7 @@ export const Logos = [
     power and infinite possibilities!
     This logo is suitable for projects related to the beauty, tech and entertainment
     industry.`,
-    availability: "Available",
+    availability: "Claimed",
     name: "Unicorn Head in Circle Logo",
     img: twentyeight,
   },
