@@ -150,7 +150,7 @@ export const Logos = [
     and a tree symbolizes strength and resistance. 
     Suitable for all projects, especially those related to environment
     and finance.`,
-    availability: "Available",
+    availability: "Claimed",
     name: "Top Growth Arrow Tree Logo",
     img: eleven,
   },
