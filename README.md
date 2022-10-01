@@ -14,7 +14,7 @@ Designers are invited to contribute.
 ## Claiming a logo
 
 ### Eligibility
-To claim a logo, you must an active open source project or a registered NGO. "Active" here means:
+To claim a logo, you must be an active open source project or a registered NGO. "Active" here means:
 - Regular commits 
 - More than one contributor
 - Over 100 GitHub stars
@@ -22,7 +22,7 @@ To claim a logo, you must an active open source project or a registered NGO. "Ac
 
 In addition, your project should be a good fit for the selected logo. Each logo has a short description that specifies the kind of project it is suitable for.
 
-### Processs
+### Process
 - To begin claiming a logo, create a GitHub issue, using the ["logo request" issue template](https://github.com/enjeck/libre-logos/issues/new?assignees=&labels=logo+request&template=logo-request.md&title=Logo+request). Please fill the template completely. The more information you provide, the faster your request will be processed.
 - Your issue will be reviewed. The "under review" label may be added to the issue.
 - If your project is eligible and the requested logo is available, you will be informed that you have claimed the logo. Once the logo is marked as "Claimed" on the [logo list](src/data/logos.js) and `R: Granted` label is added to the issue, the requested logo is officially yours. Congratulations! At this point, all copyright transfers to your project. 
