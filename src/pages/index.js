@@ -18,7 +18,7 @@ const IndexPage = () => (
       <h3 style={{fontSize: "2rem"}}>
         Eligibility
       </h3>
-      <p>To claim a logo, you must an active open source project or a registered NGO. "Active" here means:</p>
+      <p>To claim a logo, you must be an active open source project or a registered NGO. "Active" here means:</p>
       <ul>
         <li>Regular commits </li>
         <li> More than one contributor </li>
