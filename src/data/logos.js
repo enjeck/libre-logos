@@ -109,7 +109,7 @@ export const Logos = [
     `An elegant luxurious logo of the night sky, complete with 
     a star and moon. 
     This logo works well for any type of project or organization.`,
-    availability: "Available",
+    availability: "Claimed",
     name: "Night Sky Luxurious Logo",
     img: seven,
   },
