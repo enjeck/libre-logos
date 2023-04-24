@@ -12,7 +12,7 @@ import eleven from "../images/logos/11-arrow-tree.png"
 import twelve from "../images/logos/12-gladiator-sparta-head.png"
 import thirteen from "../images/logos/13-pixel-fox.png"
 import fourteen from "../images/logos/14-full-half-circles.png"
-import fifteen from "../images/logos/15-square-ying-yang.png"
+import fifteen from "../images/logos/15-square-yin-yang.png"
 import sixteen from "../images/logos/16-sunrise-on-water.png"
 import seventeen from "../images/logos/17-witch-hat.png"
 import eighteen from "../images/logos/18-geometric-rock.png"
@@ -185,10 +185,10 @@ export const Logos = [
   {
     id: "15",
     description:
-    `Minimal professional black and white Ying Yang logo in square shape. 
+    `Minimal professional black and white Yin Yang logo in square shape. 
     The logo is good for any project.`,
     availability: "Available",
-    name: "Square Ying Yang Zen Logo",
+    name: "Square Yin Yang Zen Logo",
     img: fifteen,
   },
   {
