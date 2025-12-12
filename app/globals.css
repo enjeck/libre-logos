@@ -3,58 +3,116 @@
 :root {
   --primary-color: #FF3700;
   --secondary-color: #6600cc;
+  --accent-color: #FF6B35;
+  --text-dark: #1a1a1a;
+  --text-medium: #4a4a4a;
+  --text-light: #6b6b6b;
+  --bg-light: #fafafa;
+  --bg-white: #ffffff;
+  --border-color: #e5e5e5;
+  
+  /* Spacing scale */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2.5rem;
+  --space-xl: 4rem;
+  --space-2xl: 6rem;
+  
+  /* Border radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  
+  /* Font families */
+  --font-sans: var(--font-inter), -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --font-display: var(--font-montserrat), -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 }
 
 /* Global   */
 
 body {
-  border: 10px solid #ccc;
   min-height: 100vh;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
-  font-size: 15px;
+  font-family: var(--font-sans);
+  font-size: 16px;
+  color: var(--text-dark);
+  background: var(--bg-white);
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
-  line-height: 1.4;
+  line-height: 1.6;
   word-spacing: 1px;
 }
 
 main {
   padding: 0;
-  width: 95vw;
-  margin-left: 2vw;
-  min-height: 50vh;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  min-height: 70vh;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 768px) {
   main {
-    padding: 40px;
-    width: 80vw;
-    margin-left: 7vw;
+    padding: 0 var(--space-lg);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  main {
+    padding: 0 var(--space-xl);
   }
 }
 
 h1,
 h2,
 h3 {
-  font-family: "PT Serif", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    "Helvetica Neue", Arial, sans-serif;
-  font-weight: normal;
+  font-family: var(--font-display);
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: var(--space-md);
 }
 
 h3, h4{
-  margin-top: 20px !important;
-  color: var(--primary-color);
+  margin-top: var(--space-xl);
+  color: var(--text-dark);
+  font-weight: 600;
 }
 
 h1 {
-  font-size: 40px;
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
+  font-weight: 800;
+}
+
+h2 {
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  font-weight: 700;
+}
+
+h3 {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+}
+
+h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-medium);
 }
 
 p {
-  margin: 20px 0;
+  margin: var(--space-md) 0;
+  color: var(--text-medium);
+  line-height: 1.7;
+  font-size: 1rem;
 }
 
 *,
@@ -67,26 +125,49 @@ p {
 a,
 a:active,
 a:visited {
-  color: blue;
+  color: var(--primary-color);
   text-decoration: none;
-  transition: 0.3s all ease;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+a:hover {
+  color: var(--accent-color);
 }
 
 button {
-  border: 1px solid #ccc;
-  background: white;
-  padding: 10px 14px;
+  border: 2px solid var(--text-dark);
+  background: var(--bg-white);
+  padding: 12px 24px;
   cursor: pointer;
-  color: black;
-  font-weight: 700;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif;
-  transition: 0.3s all ease;
+  color: var(--text-dark);
+  font-weight: 600;
+  font-size: 1rem;
+  font-family: var(--font-sans);
+  transition: all 0.3s ease;
+  border-radius: var(--radius-sm);
 }
 
 button:hover {
-  background: black;
-  border: 1px solid black;
+  background: var(--text-dark);
+  border: 2px solid var(--text-dark);
+  color: var(--bg-white);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.btn-primary {
+  background: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  color: white;
+  font-weight: 700;
+  padding: 14px 32px;
+  font-size: 1.1rem;
+}
+
+.btn-primary:hover {
+  background: var(--accent-color);
+  border: 2px solid var(--accent-color);
   color: white;
 }
 
@@ -95,12 +176,17 @@ a.claim {
   color: white;
   font-size: 16px;
   border: none;
-  padding: 10px;
-  font-weight: bold;
+  padding: 12px 24px;
+  font-weight: 700;
+  border-radius: var(--radius-sm);
+  display: inline-block;
+  transition: all 0.3s ease;
 }
 
 a.claim:hover {
-  background: #C14103;
+  background: var(--accent-color);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 55, 0, 0.3);
 }
 
 a.claimed{
@@ -110,6 +196,8 @@ a.claimed{
 
 a.claimed:hover {
   background: #aaa;
+  transform: none;
+  box-shadow: none;
 }
 
 .logo-details p{
@@ -132,10 +220,18 @@ label {
 }
 
 input {
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: var(--font-sans);
   font-size: 16px;
-  padding: 5px 10px;
+  padding: 12px 16px;
+  border: 2px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 3px rgba(255, 55, 0, 0.1);
 }
 
 .center {

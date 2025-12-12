@@ -3,15 +3,17 @@
 import React from "react"
 import Link from "next/link"
 import PropTypes from "prop-types"
-import { Head, Nav } from "./header-styles"
+import { Head, Logo, Nav } from "./header-styles"
 
 const Header = ({ siteTitle }) => {
 
   return (
     <Head>
-      <Link href="/" style={{textAlign:"center"}}>
-        <img src="/images/ll-logo.svg" alt="Libre Logos"/>
-        <h1>{siteTitle}</h1>
+      <Link href="/">
+        <Logo>
+          <img src="/images/ll-logo.svg" alt="Libre Logos"/>
+          <h1>{siteTitle}</h1>
+        </Logo>
       </Link>
       <Nav>
         <ul>
