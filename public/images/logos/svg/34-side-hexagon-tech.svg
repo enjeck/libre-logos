@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="59.177299mm"
+   height="52.791142mm"
+   viewBox="0 0 59.177299 52.791142"
+   version="1.1"
+   id="svg15475"
+   inkscape:version="1.1 (1:1.1+202105261517+ce6663b3b7)"
+   sodipodi:docname="34-side-hexagon-tech.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview15477"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.75187991"
+     inkscape:cx="166.24995"
+     inkscape:cy="71.15498"
+     inkscape:window-width="1848"
+     inkscape:window-height="1016"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs15472">
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient11376"
+       id="linearGradient67226"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.49220691,0,0,0.49220691,-2294.9776,-2040.297)"
+       x1="4769.8184"
+       y1="4461.918"
+       x2="4890.0469"
+       y2="4461.918" />
+    <linearGradient
+       id="linearGradient11376"
+       inkscape:collect="always">
+      <stop
+         id="stop11372"
+         offset="0"
+         style="stop-color:#0044aa;stop-opacity:1" />
+      <stop
+         id="stop11374"
+         offset="1"
+         style="stop-color:#d35fbc;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-52.755,-129.49424)">
+    <path
+       inkscape:connector-curvature="0"
+       d="m 57.3144,129.49424 c -2.5157,1.5e-4 -4.5545,2.03846 -4.5548,4.55288 v 6.64671 h 22.1657 a 4.579112,4.579112 0 0 1 4.1933,-2.88589 v 0 a 4.579112,4.579112 0 0 1 0.06,0 4.579112,4.579112 0 0 1 4.5789,4.57792 4.579112,4.579112 0 0 1 -4.5789,4.58072 4.579112,4.579112 0 0 1 -4.2549,-2.88884 H 52.7581 v 10.1191 h 36.7185 a 4.579112,4.579112 0 0 1 4.1934,-2.88588 v 0 a 4.579112,4.579112 0 0 1 0.06,0 4.579112,4.579112 0 0 1 4.5788,4.57885 4.579112,4.579112 0 0 1 -4.5788,4.57979 4.579112,4.579112 0 0 1 -4.2549,-2.88698 H 52.7566 v 10.11723 h 22.1657 a 4.579112,4.579112 0 0 1 4.1933,-2.88588 v 0 a 4.579112,4.579112 0 0 1 0.06,0 4.579112,4.579112 0 0 1 4.5789,4.57885 4.579112,4.579112 0 0 1 -4.5789,4.57979 4.579112,4.579112 0 0 1 -4.2549,-2.88682 H 52.755 v 6.64655 c 4e-4,2.51427 2.0391,4.55258 4.5549,4.55304 h 37.45 c 1.627,0 3.1299,-0.86825 3.9434,-2.27652 l 12.6185,-21.84253 c 0.814,-1.40889 0.814,-3.14415 0,-4.55304 L 98.7033,131.77076 c -0.8135,-1.40812 -2.3164,-2.2759 -3.9434,-2.27652 z"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:url(#linearGradient67226);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:12.342;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="path67224" />
+  </g>
+</svg>

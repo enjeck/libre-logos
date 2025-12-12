@@ -1,0 +1,239 @@
+/* Variables */
+
+:root {
+  --primary-color: #FF3700;
+  --secondary-color: #6600cc;
+}
+
+/* Global   */
+
+body {
+  border: 10px solid #ccc;
+  min-height: 100vh;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-size: 15px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  line-height: 1.4;
+  word-spacing: 1px;
+}
+
+main {
+  padding: 0;
+  width: 95vw;
+  margin-left: 2vw;
+  min-height: 50vh;
+}
+
+@media screen and (min-width: 1000px) {
+  main {
+    padding: 40px;
+    width: 80vw;
+    margin-left: 7vw;
+  }
+}
+
+h1,
+h2,
+h3 {
+  font-family: "PT Serif", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Helvetica Neue", Arial, sans-serif;
+  font-weight: normal;
+}
+
+h3, h4{
+  margin-top: 20px !important;
+  color: var(--primary-color);
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  margin: 20px 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+a,
+a:active,
+a:visited {
+  color: blue;
+  text-decoration: none;
+  transition: 0.3s all ease;
+}
+
+button {
+  border: 1px solid #ccc;
+  background: white;
+  padding: 10px 14px;
+  cursor: pointer;
+  color: black;
+  font-weight: 700;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+  transition: 0.3s all ease;
+}
+
+button:hover {
+  background: black;
+  border: 1px solid black;
+  color: white;
+}
+
+a.claim {
+  background: var(--primary-color);
+  color: white;
+  font-size: 16px;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+}
+
+a.claim:hover {
+  background: #C14103;
+}
+
+a.claimed{
+  background: #aaa;
+  cursor: not-allowed;
+}
+
+a.claimed:hover {
+  background: #aaa;
+}
+
+.logo-details p{
+  margin: 0;
+  font-size: 14px;
+}
+
+hr {
+  border-top: 1px solid #eee;
+  margin: 30px 0;
+}
+
+label {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+input {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  padding: 5px 10px;
+}
+
+.center {
+  text-align: center;
+}
+
+
+.item button {
+  width: 90%;
+  margin-top: 20px;
+}
+
+.logo-img{
+  position:relative;
+}
+
+.tag{
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  background-color: #FF3700;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+}
+/* Logos Grid */
+
+.logosgrid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 3fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 0px;
+  text-align: center;
+}
+
+.img-contain {
+  max-height: 300px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+.img-contain img {
+  width: 100%;
+}
+
+.view-btn-container{
+  margin-top: 15px;
+}
+
+.content {
+  /*no grid support*/
+  float: right;
+  width: 79.7872%;
+  /* grid */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  padding: 0 !important;
+}
+
+.max {
+  float: right;
+}
+
+.logo-info {
+  padding: 0 20px;
+  margin-top: 30px;
+}
+
+.logo-info h1 {
+  margin: 0;
+}
+
+
+@media (max-width: 600px) {
+
+  .content {
+    width: 100% !important;
+    grid-template-columns: 1fr !important;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .content {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .logosgrid {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+  }
+}
