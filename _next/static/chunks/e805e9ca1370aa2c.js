@@ -1,4 +1,4 @@
-(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,57530,e=>{"use strict";var i=e.i(64900);e.i(74442);var a=e.i(1272);let o=[{id:"1",description:`Logo depicting a pen lighthouse. 
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,57530,e=>{"use strict";var i=e.i(64900);e.i(74442);var a=e.i(1272),o=e.i(88765);let t=[{id:"1",description:`Logo depicting a pen lighthouse. 
       This logo can be seen metaphorically as a pen beacon which shines 
       the light of creativity around, for vessels/ships of authors 
       searching for ideas in the sea of darkness.
@@ -71,7 +71,7 @@
     wildlife conservation, tourism, consulting and fashion projects.`,availability:"Available",name:"Running Gazelle Line Logo",img:"/images/logos/32-line-gazelle.png"},{id:"33",description:`Cute, simple logo of a robot head with game controls for eyes.
     This icon is suitable for gaming projects.`,availability:"Available",name:"Cute Robot Head Game Logo",img:"/images/logos/33-game-robot.png"},{id:"34",description:`Simple, beautiful gradient logo of a hexagon with tech circuit lines.
     This icon is fitting for tech and software projects/organisations.`,availability:"Available",name:"Side Hexagon Tech Logo",img:"/images/logos/34-side-hexagon-tech.png"},{id:"35",description:`Unique, elegant geometric pineapple fruit cube logo composed of several shapes.
-    This mark is works for projects/organisations in any industry.`,availability:"Available",name:"Geometric Pineapple Cube Logo",img:"/images/logos/35-geometric-pineapple.png"}];var t=e.i(34395);let r=t.default.section.withConfig({displayName:"featuredlogos-styles__Featured",componentId:"sc-7a3d85f0-0"})`
+    This mark is works for projects/organisations in any industry.`,availability:"Available",name:"Geometric Pineapple Cube Logo",img:"/images/logos/35-geometric-pineapple.png"}];var r=e.i(34395);let s=r.default.section.withConfig({displayName:"featuredlogos-styles__Featured",componentId:"sc-7a3d85f0-0"})`
   margin-top: 60px;
 
   .featureditems {
@@ -165,7 +165,7 @@
       width: 100%;
     }
   }
-`;e.s(["default",0,()=>{let e=o.slice(0,4);return(0,i.jsxs)(r,{children:[(0,i.jsx)("h2",{children:(0,i.jsx)("span",{children:"Recently Added Logos"})}),(0,i.jsx)("div",{className:"featureditems",children:e.map(e=>(0,i.jsxs)("div",{className:"item",children:[(0,i.jsx)("img",{src:e.img,alt:e.name}),(0,i.jsx)(a.default,{href:`/logo/${e.id}`,children:(0,i.jsx)("h3",{style:{color:"blue"},children:e.name})})]},e.id))})]})}],57530)},12089,e=>{"use strict";var i=e.i(64900);e.i(74442);var a=e.i(1272),o=e.i(34395);let t=o.default.section.withConfig({displayName:"hero-styles__HeroSection",componentId:"sc-71afff14-0"})`
+`;e.s(["default",0,()=>{let e=t.slice(0,4);return(0,i.jsxs)(s,{children:[(0,i.jsx)("h2",{children:(0,i.jsx)("span",{children:"Recently Added Logos"})}),(0,i.jsx)("div",{className:"featureditems",children:e.map(e=>(0,i.jsxs)("div",{className:"item",children:[(0,i.jsx)(o.default,{src:e.img,alt:e.name,width:200,height:200,style:{width:"100%",height:"auto"}}),(0,i.jsx)(a.default,{href:`/logo/${e.id}`,children:(0,i.jsx)("h3",{style:{color:"blue"},children:e.name})})]},e.id))})]})}],57530)},12089,e=>{"use strict";var i=e.i(64900);e.i(74442);var a=e.i(1272),o=e.i(88765),t=e.i(34395);let r=t.default.section.withConfig({displayName:"hero-styles__HeroSection",componentId:"sc-71afff14-0"})`
   padding: var(--space-2xl) var(--space-md);
   text-align: center;
   max-width: 1200px;
@@ -178,15 +178,15 @@
   @media screen and (min-width: 768px) {
     padding: var(--space-2xl) var(--space-xl);
   }
-`,r=o.default.div.withConfig({displayName:"hero-styles__HeroContent",componentId:"sc-71afff14-1"})`
+`,s=t.default.div.withConfig({displayName:"hero-styles__HeroContent",componentId:"sc-71afff14-1"})`
   width: 100%;
   max-width: 900px;
-`,s=o.default.h5.withConfig({displayName:"hero-styles__HeroSubheading",componentId:"sc-71afff14-2"})`
+`,n=t.default.h5.withConfig({displayName:"hero-styles__HeroSubheading",componentId:"sc-71afff14-2"})`
   color: var(--primary-color);
   margin-bottom: var(--space-sm);
   font-weight: 600;
   letter-spacing: 0.1em;
-`,n=o.default.h1.withConfig({displayName:"hero-styles__HeroHeading",componentId:"sc-71afff14-3"})`
+`,l=t.default.h1.withConfig({displayName:"hero-styles__HeroHeading",componentId:"sc-71afff14-3"})`
   margin-bottom: var(--space-lg);
   color: var(--text-dark);
   
@@ -207,7 +207,7 @@
       border-radius: 4px;
     }
   }
-`,l=o.default.p.withConfig({displayName:"hero-styles__HeroDescription",componentId:"sc-71afff14-4"})`
+`,d=t.default.p.withConfig({displayName:"hero-styles__HeroDescription",componentId:"sc-71afff14-4"})`
   font-size: 1.25rem;
   line-height: 1.8;
   color: var(--text-medium);
@@ -219,7 +219,7 @@
   @media screen and (max-width: 768px) {
     font-size: 1.1rem;
   }
-`,d=o.default.div.withConfig({displayName:"hero-styles__HeroActions",componentId:"sc-71afff14-5"})`
+`,c=t.default.div.withConfig({displayName:"hero-styles__HeroActions",componentId:"sc-71afff14-5"})`
   display: flex;
   gap: var(--space-md);
   justify-content: center;
@@ -229,7 +229,7 @@
   button {
     min-width: 180px;
   }
-`,c=o.default.div.withConfig({displayName:"hero-styles__BadgeWrapper",componentId:"sc-71afff14-6"})`
+`,g=t.default.div.withConfig({displayName:"hero-styles__BadgeWrapper",componentId:"sc-71afff14-6"})`
   margin-top: var(--space-xl);
   
   img {
@@ -239,7 +239,7 @@
   a:hover img {
     transform: translateY(-2px);
   }
-`;e.s(["default",0,()=>(0,i.jsx)(t,{children:(0,i.jsxs)(r,{children:[(0,i.jsx)(s,{children:"For Open Source & NGOs"}),(0,i.jsxs)(n,{children:["Professional logos that ",(0,i.jsx)("span",{className:"highlight",children:"elevate your project"})]}),(0,i.jsx)(l,{children:"Claim exclusive, trademark-ready branding for your open source project or NGO. Original vector art with full copyright transfer, completely free."}),(0,i.jsxs)(d,{children:[(0,i.jsx)(a.default,{href:"/available",children:(0,i.jsx)("button",{className:"btn-primary",children:"Browse Available Logos"})}),(0,i.jsx)(a.default,{href:"/all",children:(0,i.jsx)("button",{children:"View All Logos"})})]}),(0,i.jsx)(c,{children:(0,i.jsx)("a",{href:"https://www.producthunt.com/posts/librelogos-org?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-librelogos-org",target:"_blank",rel:"noopener noreferrer",children:(0,i.jsx)("img",{src:"https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=315135&theme=light",alt:"librelogos.org - Free, exclusive logos for open source projects & NGOs | Product Hunt",width:"250",height:"54"})})})]})})],12089)},42242,e=>{"use strict";var i=e.i(64900);e.i(74442);var a=e.i(34395);let o=a.default.section.withConfig({displayName:"features-styles__Boxes",componentId:"sc-5682b89b-0"})`
+`;e.s(["default",0,()=>(0,i.jsx)(r,{children:(0,i.jsxs)(s,{children:[(0,i.jsx)(n,{children:"For Open Source & NGOs"}),(0,i.jsxs)(l,{children:["Professional logos that ",(0,i.jsx)("span",{className:"highlight",children:"elevate your project"})]}),(0,i.jsx)(d,{children:"Claim exclusive, trademark-ready branding for your open source project or NGO. Original vector art with full copyright transfer, completely free."}),(0,i.jsxs)(c,{children:[(0,i.jsx)(a.default,{href:"/available",children:(0,i.jsx)("button",{className:"btn-primary",children:"Browse Available Logos"})}),(0,i.jsx)(a.default,{href:"/all",children:(0,i.jsx)("button",{children:"View All Logos"})})]}),(0,i.jsx)(g,{children:(0,i.jsx)("a",{href:"https://www.producthunt.com/posts/librelogos-org?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-librelogos-org",target:"_blank",rel:"noopener noreferrer",children:(0,i.jsx)(o.default,{src:"https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=315135&theme=light",alt:"librelogos.org - Free, exclusive logos for open source projects & NGOs | Product Hunt",width:250,height:54})})})]})})],12089)},42242,e=>{"use strict";var i=e.i(64900);e.i(74442);var a=e.i(88765),o=e.i(34395);let t=o.default.section.withConfig({displayName:"features-styles__Boxes",componentId:"sc-5682b89b-0"})`
   padding: var(--space-2xl) var(--space-md);
   max-width: 1200px;
   margin: 0 auto;
@@ -313,7 +313,7 @@
     line-height: 1.6;
     font-size: 0.95rem;
   }
-`,t=[{icon:"/images/free-icon.svg",heading:"Free and Open Source",details:" All logos will be given free of charge. Nothing will be paid to acquire them."},{icon:"/images/exclusive-icon.svg",heading:"Exclusive, Trademarkable Logo",details:"Each logo is claimed once. Copyright transfers to the project that claims the logo."},{icon:"/images/vector-icon.svg",heading:"Original Vector Art",details:"Original SVG and high-resolution PNG will be provided."}];e.s(["default",0,()=>(0,i.jsx)(o,{children:t.map((e,a)=>(0,i.jsxs)("div",{className:`box${a+1}`,children:[(0,i.jsx)("img",{src:e.icon,alt:"service icon"}),(0,i.jsx)("h4",{children:e.heading}),(0,i.jsx)("p",{children:e.details})]},e.heading))})],42242)},56247,e=>{"use strict";var i=e.i(64900);e.i(74442);var a=e.i(34395);let o=a.default.section.withConfig({displayName:"how-it-works-styles__ProcessSection",componentId:"sc-ab4c655c-0"})`
+`,r=[{icon:"/images/free-icon.svg",heading:"Free and Open Source",details:" All logos will be given free of charge. Nothing will be paid to acquire them."},{icon:"/images/exclusive-icon.svg",heading:"Exclusive, Trademarkable Logo",details:"Each logo is claimed once. Copyright transfers to the project that claims the logo."},{icon:"/images/vector-icon.svg",heading:"Original Vector Art",details:"Original SVG and high-resolution PNG will be provided."}];e.s(["default",0,()=>(0,i.jsx)(t,{children:r.map((e,o)=>(0,i.jsxs)("div",{className:`box${o+1}`,children:[(0,i.jsx)(a.default,{src:e.icon,alt:"service icon",width:64,height:64}),(0,i.jsx)("h4",{children:e.heading}),(0,i.jsx)("p",{children:e.details})]},e.heading))})],42242)},56247,e=>{"use strict";var i=e.i(64900);e.i(74442);var a=e.i(34395);let o=a.default.section.withConfig({displayName:"how-it-works-styles__ProcessSection",componentId:"sc-ab4c655c-0"})`
   padding: var(--space-2xl) var(--space-md);
   max-width: 1200px;
   margin: 0 auto;
