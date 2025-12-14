@@ -1,7 +1,12 @@
 self.__BUILD_MANIFEST = {
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [],
+    "beforeFiles": [
+      {
+        "source": "/libre-logos//_next/:path+",
+        "destination": "/libre-logos/_next/:path+"
+      }
+    ],
     "fallback": []
   },
   "sortedPages": [
