@@ -1,7 +1,7 @@
 import styled from "styled-components"
-import { TransitionGroup } from "react-transition-group"
+// import { TransitionGroup } from "react-transition-group"
 
-export const StyledGroup = styled(TransitionGroup)`
+export const StyledGroup = styled.div`
   height: 100%;
   width: 100% !important;
 `

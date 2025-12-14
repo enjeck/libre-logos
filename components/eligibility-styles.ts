@@ -1,6 +1,10 @@
 import styled from 'styled-components'
 import Link from 'next/link'
 
+interface OpenProps {
+    $isOpen: boolean;
+}
+
 export const EligibilitySection = styled.section`
   padding: var(--space-2xl) var(--space-md);
   background: var(--bg-light);
@@ -27,7 +31,7 @@ export const FAQ = styled.div`
   gap: var(--space-md);
 `
 
-export const FAQItem = styled.div`
+export const FAQItem = styled.div<OpenProps>`
     background: var(--bg-white);
     border-radius: var(--radius-md);
     overflow: hidden;
@@ -62,7 +66,7 @@ export const Question = styled.button`
   }
 `
 
-export const ToggleIcon = styled.span`
+export const ToggleIcon = styled.span<OpenProps>`
   font-size: 1.5rem;
   font-weight: 300;
   color: var(--primary-color);
@@ -71,7 +75,7 @@ export const ToggleIcon = styled.span`
   margin-left: var(--space-md);
 `
 
-export const Answer = styled.div`
+export const Answer = styled.div<OpenProps>`
   max-height: ${props => props.$isOpen ? '500px' : '0'};
   overflow: hidden;
   transition: max-height 0.3s ease;
