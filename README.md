@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Libre Logos
 
-## Getting Started
+Libre Logos is a library of free logos.
+The logos are intended for open source projects and NGOs.
 
-First, run the development server:
+Designers are invited to contribute.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**The logo designs are meant to be unique, and there's no intention to steal creative property. If you find a logo that looks too similar to an existing brand, please let me know so that it can be removed**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+![home page](librelogos1.png)
+![all logos](librelogos2.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Claiming a logo
 
-## Learn More
+### Eligibility
+To claim a logo, you must an active open source project or a registered NGO. "Active" here means:
+- Regular commits 
+- More than one contributor
+- Over 100 GitHub stars
+- Git history spanning over 1 year
 
-To learn more about Next.js, take a look at the following resources:
+In addition, your project should be a good fit for the selected logo. Each logo has a short description that specifies the kind of project it is suitable for.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Processs
+- To begin claiming a logo, create a GitHub issue, using the ["logo request" issue template](https://github.com/enjeck/libre-logos/issues/new?assignees=&labels=logo+request&template=logo-request.md&title=Logo+request). Please fill the template completely. The more information you provide, the faster your request will be processed.
+- Your issue will be reviewed. The "under review" label may be added to the issue.
+- If your project is eligible and the requested logo is available, you will be informed that you have claimed the logo. Once the logo is marked as "Claimed" on the [logo list](src/data/logos.js) and `R: Granted` label is added to the issue, the requested logo is officially yours. Congratulations! At this point, all copyright transfers to your project. 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Contributing
 
-## Deploy on Vercel
+Thank you for your interest! Please check out the [contributing guide](CONTRIBUTING.md).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+All logos are licensed under [Creative Commons Zero](LICENSE).
+
+This source code for the website is given the MIT License.
