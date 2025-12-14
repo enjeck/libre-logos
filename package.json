@@ -1,8 +1,8 @@
 {
-  "name": "librelogos",
+  "name": "libre-logos",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://enjeck.github.io/librelogos",
+  "homepage": "https://enjeck.github.io/libre-logos",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

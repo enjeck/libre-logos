@@ -6,8 +6,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: isProd ? '/librelogos' : '',
-  assetPrefix: isProd ? '/librelogos/' : '',
+  basePath: isProd ? '/libre-logos' : '',
+  assetPrefix: isProd ? '/libre-logos/' : '',
   output: "export",
   compiler: {
     styledComponents: true,
