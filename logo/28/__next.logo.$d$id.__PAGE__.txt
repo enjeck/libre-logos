@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[33305,["/libre-logos/_next/static/chunks/2a2223f718e589c6.js","/libre-logos/_next/static/chunks/77bf9545e2d85b5b.js","/libre-logos/_next/static/chunks/6c8d3110385a7d88.js"],"default"]
+3:I[56366,["/libre-logos/_next/static/chunks/0ae11c561ff0958c.js","/libre-logos/_next/static/chunks/10d62501b604e6d4.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"buildId":"Ph8SwyekeHWHSoiG-gNnT","rsc":["$","$1","c",{"children":[["$","$L2",null,{"item":{"id":"28","description":"Modern logo of unicorn's head composed fit in a circular shape with \n    horn poking out. A logo fitting for brands that intend to give a modern \n    yet sophisticated impression. Apart from being magical, unicorns symbolize \n    power and infinite possibilities!\n    This logo is suitable for projects related to the beauty, tech and entertainment\n    industry.","availability":"Claimed","name":"Unicorn Head in Circle Logo","img":"/images/logos/28-unicorn-in-circle.png"}}],[["$","script","script-0",{"src":"/libre-logos/_next/static/chunks/6c8d3110385a7d88.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
+5:null
