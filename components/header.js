@@ -6,13 +6,15 @@ import Image from "next/image"
 import PropTypes from "prop-types"
 import { Head, Logo, Nav } from "./header-styles"
 
+const base = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 const Header = ({ siteTitle }) => {
 
   return (
     <Head>
       <Link href="/">
         <Logo>
-          <Image src="/images/ll-logo.svg" alt="Libre Logos" width={50} height={50} />
+          <Image src={`${base}/images/ll-logo.svg`} alt="Libre Logos" width={50} height={50} />
           <h1>{siteTitle}</h1>
         </Logo>
       </Link>

@@ -1,38 +1,39 @@
-const one = "/images/logos/1-pen-lighthouse.png"
-const two = "/images/logos/2-split-circle.png"
-const three = "/images/logos/3-dog-greenery.png"
-const four = "/images/logos/4-interlocking-lines.png"
-const five = "/images/logos/5-golden-ram-line.png"
-const six = "/images/logos/6-person-arrow-hands.png"
-const seven = "/images/logos/7-night-star.png"
-const eight = "/images/logos/8-polar-bear-star.png"
-const nine = "/images/logos/9-clover-tech.png"
-const ten = "/images/logos/10-vortex-illusion.png"
-const eleven = "/images/logos/11-arrow-tree.png"
-const twelve = "/images/logos/12-gladiator-sparta-head.png"
-const thirteen = "/images/logos/13-pixel-fox.png"
-const fourteen = "/images/logos/14-full-half-circles.png"
-const fifteen = "/images/logos/15-square-ying-yang.png"
-const sixteen = "/images/logos/16-sunrise-on-water.png"
-const seventeen = "/images/logos/17-witch-hat.png"
-const eighteen = "/images/logos/18-geometric-rock.png"
-const nineteen = "/images/logos/19-box-stack.png"
-const twenty = "/images/logos/20-geometric-stacked-shapes.png"
-const twentyone = "/images/logos/21-analytics-box.png"
-const twentytwo = "/images/logos/22-code-sheriff.png"
-const twentythree = "/images/logos/23-colorful-diamond-flower.png"
-const twentyfour = "/images/logos/24-abstract-box-hexagon-arrows.png"
-const twentyfive = "/images/logos/25-cloud-geek.png"
-const twentysix = "/images/logos/26-four-joined-squares.png"
-const twentyseven = "/images/logos/27-code-glasses.png"
-const twentyeight = "/images/logos/28-unicorn-in-circle.png"
-const twentynine = "/images/logos/29-hexagon-lion-face.png"
-const thirty = "/images/logos/30-interlock-chat-video.png"
-const thirtyone = "/images/logos/31-rocket-triangles.png"
-const thirtytwo = "/images/logos/32-line-gazelle.png"
-const thirtythree = "/images/logos/33-game-robot.png"
-const thirtyfour = "/images/logos/34-side-hexagon-tech.png"
-const thirtyfive = "/images/logos/35-geometric-pineapple.png"
+const base = process.env.NEXT_PUBLIC_BASE_PATH || '';
+const one = `${base}/images/logos/1-pen-lighthouse.png`
+const two = `${base}/images/logos/2-split-circle.png`
+const three = `${base}/images/logos/3-dog-greenery.png`
+const four = `${base}/images/logos/4-interlocking-lines.png`
+const five = `${base}/images/logos/5-golden-ram-line.png`
+const six = `${base}/images/logos/6-person-arrow-hands.png`
+const seven = `${base}/images/logos/7-night-star.png`
+const eight = `${base}/images/logos/8-polar-bear-star.png`
+const nine = `${base}/images/logos/9-clover-tech.png`
+const ten = `${base}/images/logos/10-vortex-illusion.png`
+const eleven = `${base}/images/logos/11-arrow-tree.png`
+const twelve = `${base}/images/logos/12-gladiator-sparta-head.png`
+const thirteen = `${base}/images/logos/13-pixel-fox.png`
+const fourteen = `${base}/images/logos/14-full-half-circles.png`
+const fifteen = `${base}/images/logos/15-square-ying-yang.png`
+const sixteen = `${base}/images/logos/16-sunrise-on-water.png`
+const seventeen = `${base}/images/logos/17-witch-hat.png`
+const eighteen = `${base}/images/logos/18-geometric-rock.png`
+const nineteen = `${base}/images/logos/19-box-stack.png`
+const twenty = `${base}/images/logos/20-geometric-stacked-shapes.png`
+const twentyone = `${base}/images/logos/21-analytics-box.png`
+const twentytwo = `${base}/images/logos/22-code-sheriff.png`
+const twentythree = `${base}/images/logos/23-colorful-diamond-flower.png`
+const twentyfour = `${base}/images/logos/24-abstract-box-hexagon-arrows.png`
+const twentyfive = `${base}/images/logos/25-cloud-geek.png`
+const twentysix = `${base}/images/logos/26-four-joined-squares.png`
+const twentyseven = `${base}/images/logos/27-code-glasses.png`
+const twentyeight = `${base}/images/logos/28-unicorn-in-circle.png`
+const twentynine = `${base}/images/logos/29-hexagon-lion-face.png`
+const thirty = `${base}/images/logos/30-interlock-chat-video.png`
+const thirtyone = `${base}/images/logos/31-rocket-triangles.png`
+const thirtytwo = `${base}/images/logos/32-line-gazelle.png`
+const thirtythree = `${base}/images/logos/33-game-robot.png`
+const thirtyfour = `${base}/images/logos/34-side-hexagon-tech.png`
+const thirtyfive = `${base}/images/logos/35-geometric-pineapple.png`
 
 export const Logos = [
   {
@@ -93,7 +94,7 @@ export const Logos = [
   {
     id: "6",
     description:
-    `This logo consists of a person in a celebration pose that symbolizes victory,
+      `This logo consists of a person in a celebration pose that symbolizes victory,
     having arrows for hands which symbolizes growth.
     The design conveys success, achievement, gains advanced, victory, and triumph. 
     A logo ideal for projects/organisations related to sports, consulting, 
@@ -106,7 +107,7 @@ export const Logos = [
   {
     id: "7",
     description:
-    `An elegant luxurious logo of the night sky, complete with 
+      `An elegant luxurious logo of the night sky, complete with 
     a star and moon. 
     This logo works well for any type of project or organization.`,
     availability: "Claimed",
@@ -125,7 +126,7 @@ export const Logos = [
   {
     id: "9",
     description:
-    `This modern logo design features a stylized four leaf clover.
+      `This modern logo design features a stylized four leaf clover.
     Each leaf is styled with an integrated circuit-type line. 
     It represents modernity, technology, security and community.
     The logo is fit for tech organisations and software projects.`,
@@ -136,16 +137,16 @@ export const Logos = [
   {
     id: "10",
     description:
-    `Clean, beautiful optical illusion vortex logo. 
+      `Clean, beautiful optical illusion vortex logo. 
     It is ideal for any project or organisation.`,
-     availability: "Available",
+    availability: "Available",
     name: "Vortex Optical Illusion Logo",
     img: ten,
   },
   {
     id: "11",
     description:
-    `Minimal logo of several arrows stacked into a tree shape. 
+      `Minimal logo of several arrows stacked into a tree shape. 
     The arrows pointing upwards symbolize growth/development,
     and a tree symbolizes strength and resistance. 
     Suitable for all projects, especially those related to environment
@@ -157,7 +158,7 @@ export const Logos = [
   {
     id: "12",
     description:
-    `Stylish Spartan helmet logo design, with badass slash in the eye.
+      `Stylish Spartan helmet logo design, with badass slash in the eye.
     It reflects values like safety, protection, security, strength, endurance and trust.
     It is ideal for financial, gaming, sports and security projects/organisations.`,
     availability: "Available",
@@ -167,7 +168,7 @@ export const Logos = [
   {
     id: "13",
     description:
-    `Simple logo of a fox pixelized fox head. 
+      `Simple logo of a fox pixelized fox head. 
     It is great for any technology and software projects/organisation.`,
     availability: "Available",
     name: "Minimal Pixel Fox Head Logo",
@@ -176,7 +177,7 @@ export const Logos = [
   {
     id: "14",
     description:
-    `Minimalist abstract logo depiction full circle surrounded by half circles.
+      `Minimalist abstract logo depiction full circle surrounded by half circles.
     suitable for any type of project.`,
     availability: "Claimed",
     name: "Minimal Cicle Logo",
@@ -185,7 +186,7 @@ export const Logos = [
   {
     id: "15",
     description:
-    `Minimal professional black and white Ying Yang logo in square shape. 
+      `Minimal professional black and white Ying Yang logo in square shape. 
     The logo is good for any project.`,
     availability: "Available",
     name: "Square Ying Yang Zen Logo",
@@ -194,7 +195,7 @@ export const Logos = [
   {
     id: "16",
     description:
-    `Abstract, modern, minimalist logo of sun rising from the ocean. 
+      `Abstract, modern, minimalist logo of sun rising from the ocean. 
     A general logo suitable for any project or organisation.`,
     availability: "Available",
     name: "Sunrise from Ocean Circular logo",
@@ -203,7 +204,7 @@ export const Logos = [
   {
     id: "17",
     description:
-    `A simple logo depicting a witch or wizard's hat.
+      `A simple logo depicting a witch or wizard's hat.
     Perfect for gaming, sports, tech and entertainment projects.`,
     availability: "Available",
     name: "Stylized Witch/Wizard Hat Logo",
@@ -212,7 +213,7 @@ export const Logos = [
   {
     id: "18",
     description:
-    `Simple logo of triangles joined to form a mineral-like obsidian structure.
+      `Simple logo of triangles joined to form a mineral-like obsidian structure.
     A general logo suitable for any project or organisation.`,
     availability: "Available",
     name: "Geometric Triangle Logo",
@@ -221,7 +222,7 @@ export const Logos = [
   {
     id: "19",
     description:
-    `Minimalist, simple logo of stacked black boxes. 
+      `Minimalist, simple logo of stacked black boxes. 
     Ideal for any project, especially those related to transport and logistics.`,
     availability: "Available",
     name: "Minimalist Stacked Cubes Logo",
@@ -230,7 +231,7 @@ export const Logos = [
   {
     id: "20",
     description:
-    `Abstract logo of two geometric shapes stacked. 
+      `Abstract logo of two geometric shapes stacked. 
     Suitable for any organisation, especially software projects.`,
     availability: "Available",
     name: "Abstract Geometric Stacked Shapes Logo",
@@ -239,7 +240,7 @@ export const Logos = [
   {
     id: "21",
     description:
-    `Professional, elegant, analytics graph logo. It features a 
+      `Professional, elegant, analytics graph logo. It features a 
     square with analytics-like lines.
     Suitable for any organisation, especially finance projects.`,
     availability: "Available",
@@ -249,7 +250,7 @@ export const Logos = [
   {
     id: "22",
     description:
-    `Simple but clever logo featuring a sheriff head built with
+      `Simple but clever logo featuring a sheriff head built with
     several code symbols. Ideal for programming education or code
     quality projects. `,
     availability: "Available",
@@ -259,7 +260,7 @@ export const Logos = [
   {
     id: "23",
     description:
-    `Colorful logo of four smaller diamonds forming a larger diamond shape. 
+      `Colorful logo of four smaller diamonds forming a larger diamond shape. 
     A general logo suitable for any project or organisation.`,
     availability: "Available",
     name: "Colorful Abstract Diamond logo",
@@ -268,7 +269,7 @@ export const Logos = [
   {
     id: "24",
     description:
-    `Abstract logo of cube in a hexagon box, with several arrows. Uses multiple colors to enhance the 
+      `Abstract logo of cube in a hexagon box, with several arrows. Uses multiple colors to enhance the 
     effect. 
     Ideal for any project, especially those related to blockchain, transport, logistics and 
     cloud/container technology. `,
@@ -279,7 +280,7 @@ export const Logos = [
   {
     id: "25",
     description:
-    `Logo depicting a man with cloud-y hair wearing glasses. It signifies an 
+      `Logo depicting a man with cloud-y hair wearing glasses. It signifies an 
     expert in cloud-related technologies. This logo is perfect for cloud software
     projects.`,
     availability: "Available",
@@ -289,7 +290,7 @@ export const Logos = [
   {
     id: "26",
     description:
-    `Logo of four square lines joining into to form a bigger square. 
+      `Logo of four square lines joining into to form a bigger square. 
     The logo works for any type of project.`,
     availability: "Available",
     name: "Stylized Squares Logo",
@@ -298,7 +299,7 @@ export const Logos = [
   {
     id: "27",
     description:
-    `Simple logo of glasses having a pair of curly braces. 
+      `Simple logo of glasses having a pair of curly braces. 
     Good for programming education or code quality software projects`,
     availability: "Available",
     name: "Code Glasses Logo",
@@ -307,7 +308,7 @@ export const Logos = [
   {
     id: "28",
     description:
-    `Modern logo of unicorn's head composed fit in a circular shape with 
+      `Modern logo of unicorn's head composed fit in a circular shape with 
     horn poking out. A logo fitting for brands that intend to give a modern 
     yet sophisticated impression. Apart from being magical, unicorns symbolize 
     power and infinite possibilities!
@@ -320,7 +321,7 @@ export const Logos = [
   {
     id: "29",
     description:
-    `Several hexagons come together to form a lion head.
+      `Several hexagons come together to form a lion head.
     The lion represents strength, leadership, control and supremacy. 
     This logo works for organisations and projects related to
     real estate, architecture, construction, consulting, finance,
@@ -332,7 +333,7 @@ export const Logos = [
   {
     id: "30",
     description:
-    `Two chat icons intersect to form a video icon in the negative space.
+      `Two chat icons intersect to form a video icon in the negative space.
     This logo is ideal for foftware projects in the entertainment and 
     communication domain.`,
     availability: "Available",
@@ -342,7 +343,7 @@ export const Logos = [
   {
     id: "31",
     description:
-    `Simple geometric logo showing several logos forming the shape of 
+      `Simple geometric logo showing several logos forming the shape of 
     a rocket taking off.
     A lifted rocket symbolizes growth and reaching for the starts. 
     This icon is suitable for any project or organisation.`,
@@ -353,7 +354,7 @@ export const Logos = [
   {
     id: "32",
     description:
-    `Elegant and playful line logo of running gazelle / impala / antelope.
+      `Elegant and playful line logo of running gazelle / impala / antelope.
     Can be used by a project/organisation in any domain, but it is ideal for
     wildlife conservation, tourism, consulting and fashion projects.`,
     availability: "Available",
@@ -363,7 +364,7 @@ export const Logos = [
   {
     id: "33",
     description:
-    `Cute, simple logo of a robot head with game controls for eyes.
+      `Cute, simple logo of a robot head with game controls for eyes.
     This icon is suitable for gaming projects.`,
     availability: "Available",
     name: "Cute Robot Head Game Logo",
@@ -372,7 +373,7 @@ export const Logos = [
   {
     id: "34",
     description:
-    `Simple, beautiful gradient logo of a hexagon with tech circuit lines.
+      `Simple, beautiful gradient logo of a hexagon with tech circuit lines.
     This icon is fitting for tech and software projects/organisations.`,
     availability: "Available",
     name: "Side Hexagon Tech Logo",
@@ -381,11 +382,11 @@ export const Logos = [
   {
     id: "35",
     description:
-    `Unique, elegant geometric pineapple fruit cube logo composed of several shapes.
+      `Unique, elegant geometric pineapple fruit cube logo composed of several shapes.
     This mark is works for projects/organisations in any industry.`,
     availability: "Available",
     name: "Geometric Pineapple Cube Logo",
     img: thirtyfive,
   },
-  
+
 ]
