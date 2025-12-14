@@ -2,6 +2,7 @@
 
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { HeroSection, HeroContent, HeroHeading, HeroSubheading, HeroDescription, HeroActions, BadgeWrapper } from './hero-styles'
 
 const Hero = () => {
@@ -13,7 +14,7 @@ const Hero = () => {
           Professional logos that <span className="highlight">elevate your project</span>
         </HeroHeading>
         <HeroDescription>
-          Claim exclusive, trademark-ready branding for your open source project or NGO. 
+          Claim exclusive, trademark-ready branding for your open source project or NGO.
           Original vector art with full copyright transfer, completely free.
         </HeroDescription>
         <HeroActions>
@@ -25,16 +26,16 @@ const Hero = () => {
           </Link>
         </HeroActions>
         <BadgeWrapper>
-          <a 
-            href="https://www.producthunt.com/posts/librelogos-org?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-librelogos-org" 
+          <a
+            href="https://www.producthunt.com/posts/librelogos-org?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-librelogos-org"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img 
-              src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=315135&theme=light" 
-              alt="librelogos.org - Free, exclusive logos for open source projects & NGOs | Product Hunt" 
-              width="250" 
-              height="54" 
+            <Image
+              src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=315135&theme=light"
+              alt="librelogos.org - Free, exclusive logos for open source projects & NGOs | Product Hunt"
+              width={250}
+              height={54}
             />
           </a>
         </BadgeWrapper>

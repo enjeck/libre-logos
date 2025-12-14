@@ -2,6 +2,7 @@
 
 import { ItemContain } from './logo-styles'
 import FeaturedLogos from './featuredlogos'
+import Image from "next/image"
 
 export default function LogoDetail({ item }) {
   const isAvailable = item.availability === "Available"
@@ -10,7 +11,7 @@ export default function LogoDetail({ item }) {
     <>
       <ItemContain>
         <section className="img logo-img">
-          <img src={item.img} alt={item.name} />
+          <Image src={item.img} alt={item.name} width={500} height={400} style={{ width: '100%', height: 'auto' }} />
           {!isAvailable && (
             <p className="tag">{item.availability}</p>
           )}
@@ -19,8 +20,8 @@ export default function LogoDetail({ item }) {
           <h1>{item.name}</h1>
           <p>{item.description}</p>
           {isAvailable ? (
-            <a 
-              href="https://github.com/enjeck/libre-logos/issues/new?assignees=&labels=logo+request&template=logo-request.md&title=Logo+request" 
+            <a
+              href="https://github.com/enjeck/libre-logos/issues/new?assignees=&labels=logo+request&template=logo-request.md&title=Logo+request"
               className="claim"
             >
               Claim this logo

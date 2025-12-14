@@ -2,6 +2,7 @@
 
 import React from "react"
 import Link from "next/link"
+import Image from "next/image"
 import PropTypes from "prop-types"
 import { Head, Logo, Nav } from "./header-styles"
 
@@ -11,7 +12,7 @@ const Header = ({ siteTitle }) => {
     <Head>
       <Link href="/">
         <Logo>
-          <img src="/images/ll-logo.svg" alt="Libre Logos"/>
+          <Image src="/images/ll-logo.svg" alt="Libre Logos" width={50} height={50} />
           <h1>{siteTitle}</h1>
         </Logo>
       </Link>

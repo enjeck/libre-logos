@@ -1,6 +1,7 @@
 'use client'
 
 import React from "react"
+import Image from "next/image"
 import { Boxes } from "./features-styles"
 
 const data = [
@@ -26,7 +27,7 @@ const Features = () => {
     <Boxes>
       {data.map((box, i) => (
         <div className={`box${i + 1}`} key={box.heading}>
-          <img src={box.icon} alt="service icon"></img>
+          <Image src={box.icon} alt="service icon" width={64} height={64} />
           <h4>{box.heading}</h4>
           <p>{box.details}</p>
         </div>

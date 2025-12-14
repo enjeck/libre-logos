@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { StyledGroup, Item } from "./logosgrid-styles"
 import PropTypes from "prop-types"
 
@@ -16,7 +17,7 @@ const LogosGrid = ({ logos }) => {
           <Item key={item.id}>
             <div className="img-contain" style={{ position: 'relative' }}>
               <Link href={`/logo/${item.id}`}>
-                <img src={item.img} alt={item.name} />
+                <Image src={item.img} alt={item.name} width={300} height={300} style={{ width: '100%', height: 'auto' }} />
               </Link>
               {item.availability !== "Available" && (
                 <span className="tag">{item.availability}</span>
